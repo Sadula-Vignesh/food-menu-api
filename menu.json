@@ -1,20 +1,352 @@
 [
-    {
-        "name": "Cheese Pizza",
-        "price": 200,
-        "category": "Pizza",
-        "img": "https://example.com/images/cheese_pizza.jpg"
-    },
-    {
-        "name": "Pasta",
-        "price": 150,
-        "category": "Pasta",
-        "img": "https://example.com/images/pasta.jpg"
-    },
-    {
-        "name": "Burger",
-        "price": 100,
-        "category": "Burger",
-        "img": "https://example.com/images/burger.jpg"
-    }
+  {
+    "id": 1,
+    "name": "Margherita Pizza",
+    "price": 8.99,
+    "category": "Pizza",
+    "img": "https://i.pinimg.com/736x/30/2b/d3/302bd34ab158e93df6f4b7fcc0ce8b46.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Pepperoni Pizza",
+    "price": 10.49,
+    "category": "Pizza",
+    "img": "https://i.pinimg.com/474x/35/83/09/358309081a759381f2dd056d9166a53e.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Veggie Supreme Pizza",
+    "price": 9.75,
+    "category": "Pizza",
+    "img": "https://i.pinimg.com/474x/60/f8/02/60f8027c2a07c7ca4c96ccc312e8e707.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Cheese Burst Pizza",
+    "price": 11.25,
+    "category": "Pizza",
+    "img": "https://i.pinimg.com/474x/b1/fb/ec/b1fbec0f1a305576dcb8fc88f9f92f07.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Classic Veg Burger",
+    "price": 5.49,
+    "category": "Burger",
+    "img": "https://i.pinimg.com/474x/2a/82/1b/2a821b50dc1b714f430017ef981e1d12.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Cheese Burger",
+    "price": 6.25,
+    "category": "Burger",
+    "img": "https://i.pinimg.com/474x/5a/fd/c1/5afdc15126999a64c7ac9304f91af584.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Paneer Tikka Burger",
+    "price": 6.75,
+    "category": "Burger",
+    "img": "https://i.pinimg.com/474x/05/a8/8d/05a88dce73e5ed1345171b4f8c74bbfb.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Chicken Zinger Burger",
+    "price": 7.00,
+    "category": "Burger",
+    "img": "https://i.pinimg.com/474x/98/3c/d0/983cd01a48bc32e9e095dedbd1033b3c.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Pasta Alfredo",
+    "price": 7.25,
+    "category": "Pasta",
+    "img": "https://i.pinimg.com/474x/96/2b/8b/962b8bb2c23547863fbfde663008e740.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Pasta Arrabbiata",
+    "price": 6.85,
+    "category": "Pasta",
+    "img": "https://i.pinimg.com/474x/ca/2a/b7/ca2ab7d73f97eb67b7b1b7c4f7d6f29a.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Mac and Cheese",
+    "price": 6.50,
+    "category": "Pasta",
+    "img": "https://i.pinimg.com/474x/31/2f/2a/312f2abe7f525ddddca4f9a433590e4b.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Spaghetti Bolognese",
+    "price": 8.25,
+    "category": "Pasta",
+    "img": "https://i.pinimg.com/474x/cd/67/5d/cd675d41c9a419a0a76c104cb6966861.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Caesar Salad",
+    "price": 6.00,
+    "category": "Salad",
+    "img": "https://i.pinimg.com/474x/00/38/9d/00389ddab812fdc051465e0d21b83ee8.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Greek Salad",
+    "price": 5.75,
+    "category": "Salad",
+    "img": "https://i.pinimg.com/474x/96/e9/a5/96e9a5eee31448bff7b4bb23f85bfd28.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Fruit Bowl",
+    "price": 4.99,
+    "category": "Salad",
+    "img": "https://i.pinimg.com/474x/78/49/c2/7849c27a8355820a55b9648d6426f8db.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Chicken Salad",
+    "price": 7.50,
+    "category": "Salad",
+    "img": "https://i.pinimg.com/474x/04/44/31/044431c8343b5801ff75f4b493fd6a24.jpg"
+  },
+  {
+    "id": 17,
+    "name": "French Fries",
+    "price": 3.50,
+    "category": "Snack",
+    "img": "https://i.pinimg.com/474x/73/7e/d9/737ed93987aae98a76fc2e5f12fc0ecc.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Masala Fries",
+    "price": 3.99,
+    "category": "Snack",
+    "img": "https://i.pinimg.com/474x/eb/fe/b5/ebfeb57f7ad2d16578825bd7340c1470.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Cheese Balls",
+    "price": 4.25,
+    "category": "Snack",
+    "img": "https://i.pinimg.com/474x/2e/61/58/2e615853dcc8c0d33147d134a2682c61.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Garlic Bread",
+    "price": 3.75,
+    "category": "Snack",
+    "img": "https://i.pinimg.com/474x/1d/ce/33/1dce3309923fd31cdddae84cf66acd32.jpg"
+  },
+  {
+    "id": 21,
+    "name": "Samosa",
+    "price": 1.50,
+    "category": "Indian",
+    "img": "https://i.pinimg.com/474x/2f/a4/4a/2fa44ae0b66a1d7cbd1bd89a3a23c88c.jpg"
+  },
+  {
+    "id": 22,
+    "name": "Paneer Tikka",
+    "price": 9.20,
+    "category": "Indian",
+    "img": "https://i.pinimg.com/474x/e1/a5/91/e1a59105bff129316df8c082826939c9.jpg"
+  },
+  {
+    "id": 23,
+    "name": "Chole Bhature",
+    "price": 6.75,
+    "category": "Indian",
+    "img": "https://i.pinimg.com/474x/7f/55/b3/7f55b38f35f6760ed94f75f7596de747.jpg"
+  },
+  {
+    "id": 24,
+    "name": "Butter Chicken",
+    "price": 11.00,
+    "category": "Indian",
+    "img": "https://i.pinimg.com/474x/72/96/4b/72964b17d98129cabe024488fc825228.jpg"
+  },
+  {
+    "id": 25,
+    "name": "Chicken Biryani",
+    "price": 10.50,
+    "category": "Indian",
+    "img": "https://i.pinimg.com/474x/8d/54/7e/8d547e3737e705b516798b10b20ea7a2.jpg"
+  },
+  {
+    "id": 26,
+    "name": "Veg Biryani",
+    "price": 8.50,
+    "category": "Indian",
+    "img": "https://i.pinimg.com/474x/62/95/5d/62955d4db7c3fe17c4de8c266ee84861.jpg"
+  },
+  {
+    "id": 27,
+    "name": "Gulab Jamun",
+    "price": 2.99,
+    "category": "Dessert",
+    "img": "https://i.pinimg.com/736x/a9/3d/77/a93d77d3e242262f2c919bf66aef5b39.jpg"
+  },
+  {
+    "id": 28,
+    "name": "Chocolate Cake",
+    "price": 4.99,
+    "category": "Dessert",
+    "img": "https://i.pinimg.com/474x/8e/8e/9c/8e8e9c1927a75d4bf661f3163841fffc.jpg"
+  },
+  {
+    "id": 29,
+    "name": "Ice Cream Sundae",
+    "price": 3.99,
+    "category": "Dessert",
+    "img": "https://i.pinimg.com/736x/38/15/02/381502624862618303ec48a935b67b3a.jpg"
+  },
+  {
+    "id": 30,
+    "name": "Brownie with Ice Cream",
+    "price": 5.25,
+    "category": "Dessert",
+    "img": "https://i.pinimg.com/474x/2b/bd/8d/2bbd8ddef0efd324f26cadb9b0f4c17d.jpg"
+  },
+  {
+    "id": 31,
+    "name": "Cold Coffee",
+    "price": 2.99,
+    "category": "Beverage",
+    "img": "https://i.pinimg.com/474x/bd/de/a0/bddea0e4dbe2f7a9cffa8cab5194cb74.jpg"
+  },
+  {
+    "id": 32,
+    "name": "Mango Shake",
+    "price": 3.50,
+    "category": "Beverage",
+    "img": "https://i.pinimg.com/474x/37/ad/e7/37ade7de242e92f088be277fc50de942.jpg"
+  },
+  {
+    "id": 33,
+    "name": "Fresh Lime Soda",
+    "price": 2.25,
+    "category": "Beverage",
+    "img": "https://i.pinimg.com/474x/f8/98/74/f8987473c38e50ef49ac0ac0388ee123.jpg"
+  },
+  {
+    "id": 34,
+    "name": "Masala Chai",
+    "price": 1.50,
+    "category": "Beverage",
+    "img": "https://i.pinimg.com/474x/7b/fd/b3/7bfdb3f39667109741da29be2211df91.jpg"
+  },
+  {
+    "id": 35,
+    "name": "Espresso",
+    "price": 2.00,
+    "category": "Beverage",
+    "img": "https://i.pinimg.com/474x/6a/86/c3/6a86c387495a30851e5843a582c7b6f2.jpg"
+  },
+  {
+    "id": 36,
+    "name": "Tandoori Roti",
+    "price": 1.25,
+    "category": "Indian",
+    "img": "https://i.pinimg.com/474x/6c/44/fa/6c44faaa7cd233140a6a2cb417909af8.jpg"
+  },
+  {
+    "id": 37,
+    "name": "Naan",
+    "price": 1.50,
+    "category": "Indian",
+    "img": "https://i.pinimg.com/474x/2a/18/27/2a18270888e4dec1488ffd9832a0d858.jpg"
+  },
+  {
+    "id": 38,
+    "name": "Butter Naan",
+    "price": 1.75,
+    "category": "Indian",
+    "img": "https://i.pinimg.com/474x/c3/98/b1/c398b1367a78955ae6f7edd80107cf18.jpg"
+  },
+  {
+    "id": 39,
+    "name": "Spring Rolls",
+    "price": 4.99,
+    "category": "Chinese",
+    "img": "https://i.pinimg.com/474x/1d/05/1e/1d051e166e62294bd2cb4dec59b22d5f.jpg"
+  },
+  {
+    "id": 40,
+    "name": "Veg Manchurian",
+    "price": 7.00,
+    "category": "Chinese",
+    "img": "https://i.pinimg.com/474x/d2/26/09/d22609efc42984ac31068cafc8f9427b.jpg"
+  },
+  {
+    "id": 41,
+    "name": "Fried Rice",
+    "price": 6.50,
+    "category": "Chinese",
+    "img": "https://i.pinimg.com/474x/83/b7/38/83b7381b18940f97d4ec5fe69ae3d023.jpg"
+  },
+  {
+    "id": 42,
+    "name": "Hakka Noodles",
+    "price": 6.75,
+    "category": "Chinese",
+    "img": "https://i.pinimg.com/474x/e5/53/63/e55363cd63ec1f769a184d8617a832ef.jpg"
+  },
+  {
+    "id": 43,
+    "name": "Veg Sandwich",
+    "price": 4.00,
+    "category": "Snack",
+    "img": "https://i.pinimg.com/474x/09/ff/bd/09ffbd293486d00ac42b9038ae26ca38.jpg"
+  },
+  {
+    "id": 44,
+    "name": "Grilled Cheese Sandwich",
+    "price": 4.50,
+    "category": "Snack",
+    "img": "https://i.pinimg.com/736x/28/5f/e4/285fe42b209ea0dd35665fcc0f453f23.jpg"
+  },
+  {
+    "id": 45,
+    "name": "Club Sandwich",
+    "price": 5.25,
+    "category": "Snack",
+    "img": "https://i.pinimg.com/474x/b6/bc/eb/b6bceb0dc50cb3247b9c632bfc1dcd3c.jpg"
+  },
+  {
+    "id": 46,
+    "name": "Paneer Wrap",
+    "price": 6.00,
+    "category": "Wrap",
+    "img": "https://i.pinimg.com/474x/44/3e/3e/443e3eb28ee9315ab961787df489e30d.jpg"
+  },
+  {
+    "id": 47,
+    "name": "Chicken Wrap",
+    "price": 6.50,
+    "category": "Wrap",
+    "img": "https://i.pinimg.com/474x/a7/8a/b1/a78ab1f6c0b4820adda3abb4191e4efb.jpg"
+  },
+  {
+    "id": 48,
+    "name": "Veg Thali",
+    "price": 9.99,
+    "category": "Indian",
+    "img": "https://i.pinimg.com/474x/aa/df/81/aadf81c33d7a3426c9e653f6e198e7fb.jpg"
+  },
+  {
+    "id": 49,
+    "name": "Non-Veg Thali",
+    "price": 12.99,
+    "category": "Indian",
+    "img": "https://i.pinimg.com/736x/aa/df/81/aadf81c33d7a3426c9e653f6e198e7fb.jpg"
+  },
+  {
+    "id": 50,
+    "name": "Mojito",
+    "price": 3.25,
+    "category": "Beverage",
+    "img": "https://i.pinimg.com/474x/cd/f1/0b/cdf10bd45a14c646c05e75cc59390b21.jpg"
+  }
 ]
