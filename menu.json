@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Cheese Pizza",
+        "price": 200,
+        "category": "Pizza",
+        "img": "https://example.com/images/cheese_pizza.jpg"
+    },
+    {
+        "name": "Pasta",
+        "price": 150,
+        "category": "Pasta",
+        "img": "https://example.com/images/pasta.jpg"
+    },
+    {
+        "name": "Burger",
+        "price": 100,
+        "category": "Burger",
+        "img": "https://example.com/images/burger.jpg"
+    }
+]
