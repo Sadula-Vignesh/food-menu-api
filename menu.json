@@ -1,352 +1,2402 @@
 [
   {
-    "id": 1,
-    "name": "Margherita Pizza",
+    "food_name": "Bacon Burger",
+    "restaurant_name": "Zen Cafe",
+    "address": "560 Choco St, Cream City",
+    "rating": 4.6,
+    "price": 9.28,
+    "img": "https://example.com/images/bacon_burger.jpg"
+  },
+  {
+    "food_name": "Grilled Chicken Salad",
+    "restaurant_name": "Scoopz Hub",
+    "address": "684 Maple Blvd, Cream City",
+    "rating": 4.8,
+    "price": 11.41,
+    "img": "https://example.com/images/grilled_chicken_salad.jpg"
+  },
+  {
+    "food_name": "Veggie Supreme Pizza",
+    "restaurant_name": "Zen Bistro",
+    "address": "588 Maple Blvd, BurgerTown",
+    "rating": 4.8,
+    "price": 6.78,
+    "img": "https://example.com/images/veggie_supreme_pizza.jpg"
+  },
+  {
+    "food_name": "Pepperoni Pizza",
+    "restaurant_name": "Healthy Corner",
+    "address": "230 Cedar Ln, Cream City",
+    "rating": 4.2,
+    "price": 11.54,
+    "img": "https://example.com/images/pepperoni_pizza.jpg"
+  },
+  {
+    "food_name": "Kale Quinoa Bowl",
+    "restaurant_name": "Zen Corner",
+    "address": "391 Brunch Blvd, Cream City",
+    "rating": 4.3,
+    "price": 7.22,
+    "img": "https://example.com/images/kale_quinoa_bowl.jpg"
+  },
+  {
+    "food_name": "Double Patty Burger",
+    "restaurant_name": "Fit House",
+    "address": "240 Brunch Blvd, Dessertland",
+    "rating": 4.7,
+    "price": 5.69,
+    "img": "https://example.com/images/double_patty_burger.jpg"
+  },
+  {
+    "food_name": "Avocado Toast",
+    "restaurant_name": "Scoopz Kitchen",
+    "address": "149 Oak Ave, Sushitown",
+    "rating": 5.0,
+    "price": 12.04,
+    "img": "https://example.com/images/avocado_toast.jpg"
+  },
+  {
+    "food_name": "Cheeseburger",
+    "restaurant_name": "Healthy Shack",
+    "address": "448 Ocean Rd, Healthville",
+    "rating": 4.2,
+    "price": 7.3,
+    "img": "https://example.com/images/cheeseburger.jpg"
+  },
+  {
+    "food_name": "Hawaiian Pizza",
+    "restaurant_name": "Fit Heaven",
+    "address": "173 Cedar Ln, Sushitown",
+    "rating": 4.5,
+    "price": 6.96,
+    "img": "https://example.com/images/hawaiian_pizza.jpg"
+  },
+  {
+    "food_name": "Lasagna",
+    "restaurant_name": "Tokyo Heaven",
+    "address": "550 Pine Rd, Pizzaville",
+    "rating": 4.2,
+    "price": 12.53,
+    "img": "https://example.com/images/lasagna.jpg"
+  },
+  {
+    "food_name": "Mango Smoothie",
+    "restaurant_name": "Sakura House",
+    "address": "652 Pine Rd, Cream City",
+    "rating": 4.2,
+    "price": 7.89,
+    "img": "https://example.com/images/mango_smoothie.jpg"
+  },
+  {
+    "food_name": "California Roll",
+    "restaurant_name": "Luigi's Kitchen",
+    "address": "240 Main St, Sushitown",
+    "rating": 4.9,
+    "price": 12.67,
+    "img": "https://example.com/images/california_roll.jpg"
+  },
+  {
+    "food_name": "Veggie Burger",
+    "restaurant_name": "Green House",
+    "address": "280 Pine Rd, Healthville",
+    "rating": 4.1,
+    "price": 5.54,
+    "img": "https://example.com/images/veggie_burger.jpg"
+  },
+  {
+    "food_name": "Grilled Chicken Salad",
+    "restaurant_name": "Scoopz Hub",
+    "address": "416 Ocean Rd, Toastville",
+    "rating": 4.5,
+    "price": 6.35,
+    "img": "https://example.com/images/grilled_chicken_salad.jpg"
+  },
+  {
+    "food_name": "Spaghetti Bolognese",
+    "restaurant_name": "Fit Hub",
+    "address": "930 Cedar Ln, Cream City",
+    "rating": 4.1,
+    "price": 11.87,
+    "img": "https://example.com/images/spaghetti_bolognese.jpg"
+  },
+  {
+    "food_name": "Mango Smoothie",
+    "restaurant_name": "Green Kitchen",
+    "address": "587 Oak Ave, Cream City",
+    "rating": 4.7,
+    "price": 7.78,
+    "img": "https://example.com/images/mango_smoothie.jpg"
+  },
+  {
+    "food_name": "Veggie Supreme Pizza",
+    "restaurant_name": "Healthy Spot",
+    "address": "768 Ocean Rd, Toastville",
+    "rating": 4.7,
+    "price": 13.07,
+    "img": "https://example.com/images/veggie_supreme_pizza.jpg"
+  },
+  {
+    "food_name": "Margherita Pizza",
+    "restaurant_name": "Fit Diner",
+    "address": "502 Oak Ave, Pizzaville",
+    "rating": 4.9,
+    "price": 13.13,
+    "img": "https://example.com/images/margherita_pizza.jpg"
+  },
+  {
+    "food_name": "Mushroom Swiss Burger",
+    "restaurant_name": "Tony's Cafe",
+    "address": "878 Elm St, BurgerTown",
+    "rating": 4.7,
+    "price": 5.89,
+    "img": "https://example.com/images/mushroom_swiss_burger.jpg"
+  },
+  {
+    "food_name": "BBQ Chicken Pizza",
+    "restaurant_name": "Luigi's Spot",
+    "address": "625 Choco St, Dessertland",
+    "rating": 4.5,
+    "price": 14.31,
+    "img": "https://example.com/images/bbq_chicken_pizza.jpg"
+  },
+  {
+    "food_name": "Chocolate Brownie",
+    "restaurant_name": "Sakura Spot",
+    "address": "861 Choco St, Healthville",
+    "rating": 4.1,
+    "price": 3.91,
+    "img": "https://example.com/images/chocolate_brownie.jpg"
+  },
+  {
+    "food_name": "Spicy Tuna Roll",
+    "restaurant_name": "Fit Corner",
+    "address": "950 Oak Ave, Healthville",
+    "rating": 4.8,
+    "price": 16.82,
+    "img": "https://example.com/images/spicy_tuna_roll.jpg"
+  },
+  {
+    "food_name": "Chocolate Brownie",
+    "restaurant_name": "Fit Hub",
+    "address": "872 Cedar Ln, Healthville",
+    "rating": 4.8,
+    "price": 5.44,
+    "img": "https://example.com/images/chocolate_brownie.jpg"
+  },
+  {
+    "food_name": "California Roll",
+    "restaurant_name": "Sakura Shack",
+    "address": "641 Pine Rd, Cream City",
+    "rating": 4.3,
+    "price": 10.22,
+    "img": "https://example.com/images/california_roll.jpg"
+  },
+  {
+    "food_name": "Tiramisu",
+    "restaurant_name": "Tony's House",
+    "address": "489 Main St, BurgerTown",
+    "rating": 4.4,
+    "price": 7.29,
+    "img": "https://example.com/images/tiramisu.jpg"
+  },
+  {
+    "food_name": "Chocolate Chip Ice Cream",
+    "restaurant_name": "Tokyo Bistro",
+    "address": "329 Cedar Ln, Cream City",
+    "rating": 4.3,
+    "price": 2.97,
+    "img": "https://example.com/images/chocolate_chip_ice_cream.jpg"
+  },
+  {
+    "food_name": "Veggie Supreme Pizza",
+    "restaurant_name": "Burger Corner",
+    "address": "498 Cedar Ln, Sushitown",
+    "rating": 4.6,
+    "price": 12.08,
+    "img": "https://example.com/images/veggie_supreme_pizza.jpg"
+  },
+  {
+    "food_name": "Veggie Supreme Pizza",
+    "restaurant_name": "Tony's Kitchen",
+    "address": "866 Brunch Blvd, Dessertland",
+    "rating": 4.9,
+    "price": 12.25,
+    "img": "https://example.com/images/veggie_supreme_pizza.jpg"
+  },
+  {
+    "food_name": "Chocolate Chip Ice Cream",
+    "restaurant_name": "Fit Heaven",
+    "address": "779 Berry Dr, Pizzaville",
+    "rating": 4.2,
+    "price": 2.27,
+    "img": "https://example.com/images/chocolate_chip_ice_cream.jpg"
+  },
+  {
+    "food_name": "Cheeseburger",
+    "restaurant_name": "Burger Shack",
+    "address": "204 Brunch Blvd, Dessertland",
+    "rating": 4.6,
+    "price": 5.3,
+    "img": "https://example.com/images/cheeseburger.jpg"
+  },
+  {
+    "food_name": "Cheeseburger",
+    "restaurant_name": "Fit Heaven",
+    "address": "134 Maple Blvd, Pizzaville",
+    "rating": 4.3,
+    "price": 6.24,
+    "img": "https://example.com/images/cheeseburger.jpg"
+  },
+  {
+    "food_name": "Oreo Milkshake",
+    "restaurant_name": "Burger Heaven",
+    "address": "693 Oak Ave, Grilltopia",
+    "rating": 4.3,
+    "price": 3.78,
+    "img": "https://example.com/images/oreo_milkshake.jpg"
+  },
+  {
+    "food_name": "Strawberry Ice Cream",
+    "restaurant_name": "Zen Diner",
+    "address": "551 Elm St, BurgerTown",
+    "rating": 4.8,
+    "price": 2.06,
+    "img": "https://example.com/images/strawberry_ice_cream.jpg"
+  },
+  {
+    "food_name": "Mac and Cheese",
+    "restaurant_name": "Tony's Grill",
+    "address": "996 Elm St, Dessertland",
+    "rating": 4.3,
+    "price": 10.81,
+    "img": "https://example.com/images/mac_and_cheese.jpg"
+  },
+  {
+    "food_name": "Strawberry Cheesecake",
+    "restaurant_name": "Burger Kitchen",
+    "address": "811 Berry Dr, Toastville",
+    "rating": 4.9,
+    "price": 8.49,
+    "img": "https://example.com/images/strawberry_cheesecake.jpg"
+  },
+  {
+    "food_name": "Kale Quinoa Bowl",
+    "restaurant_name": "Zen Spot",
+    "address": "103 Ocean Rd, Grilltopia",
+    "rating": 4.5,
+    "price": 9.83,
+    "img": "https://example.com/images/kale_quinoa_bowl.jpg"
+  },
+  {
+    "food_name": "Strawberry Ice Cream",
+    "restaurant_name": "Tokyo Cafe",
+    "address": "616 Ocean Rd, Cream City",
+    "rating": 4.7,
+    "price": 6.39,
+    "img": "https://example.com/images/strawberry_ice_cream.jpg"
+  },
+  {
+    "food_name": "Veggie Burger",
+    "restaurant_name": "Fit Palace",
+    "address": "682 Choco St, Cream City",
+    "rating": 4.8,
+    "price": 11.87,
+    "img": "https://example.com/images/veggie_burger.jpg"
+  },
+  {
+    "food_name": "Strawberry Ice Cream",
+    "restaurant_name": "Scoopz Hub",
+    "address": "807 Elm St, Pizzaville",
+    "rating": 4.9,
+    "price": 4.31,
+    "img": "https://example.com/images/strawberry_ice_cream.jpg"
+  },
+  {
+    "food_name": "BBQ Chicken Pizza",
+    "restaurant_name": "Burger Kitchen",
+    "address": "206 Maple Blvd, BurgerTown",
+    "rating": 5.0,
+    "price": 7.2,
+    "img": "https://example.com/images/bbq_chicken_pizza.jpg"
+  },
+  {
+    "food_name": "Salmon Sashimi",
+    "restaurant_name": "Luigi's Corner",
+    "address": "541 Brunch Blvd, Cream City",
+    "rating": 4.2,
+    "price": 13.02,
+    "img": "https://example.com/images/salmon_sashimi.jpg"
+  },
+  {
+    "food_name": "Dragon Roll",
+    "restaurant_name": "Luigi's Kitchen",
+    "address": "470 Ocean Rd, Grilltopia",
+    "rating": 4.6,
+    "price": 14.13,
+    "img": "https://example.com/images/dragon_roll.jpg"
+  },
+  {
+    "food_name": "Avocado Toast",
+    "restaurant_name": "Tony's Spot",
+    "address": "291 Main St, Grilltopia",
+    "rating": 4.2,
+    "price": 12.06,
+    "img": "https://example.com/images/avocado_toast.jpg"
+  },
+  {
+    "food_name": "Salmon Sashimi",
+    "restaurant_name": "Scoopz Cafe",
+    "address": "671 Pine Rd, Sushitown",
+    "rating": 4.9,
+    "price": 11.08,
+    "img": "https://example.com/images/salmon_sashimi.jpg"
+  },
+  {
+    "food_name": "Apple Pie",
+    "restaurant_name": "Sweet Corner",
+    "address": "223 Oak Ave, Pizzaville",
+    "rating": 4.5,
     "price": 8.99,
-    "category": "Pizza",
-    "img": "https://i.pinimg.com/736x/30/2b/d3/302bd34ab158e93df6f4b7fcc0ce8b46.jpg"
+    "img": "https://example.com/images/apple_pie.jpg"
   },
   {
-    "id": 2,
-    "name": "Pepperoni Pizza",
-    "price": 10.49,
-    "category": "Pizza",
-    "img": "https://i.pinimg.com/474x/35/83/09/358309081a759381f2dd056d9166a53e.jpg"
+    "food_name": "BBQ Chicken Pizza",
+    "restaurant_name": "Scoopz Cafe",
+    "address": "558 Choco St, Pizzaville",
+    "rating": 4.3,
+    "price": 10.57,
+    "img": "https://example.com/images/bbq_chicken_pizza.jpg"
   },
   {
-    "id": 3,
-    "name": "Veggie Supreme Pizza",
-    "price": 9.75,
-    "category": "Pizza",
-    "img": "https://i.pinimg.com/474x/60/f8/02/60f8027c2a07c7ca4c96ccc312e8e707.jpg"
+    "food_name": "Red Velvet Cake",
+    "restaurant_name": "Healthy Spot",
+    "address": "692 Pine Rd, Grilltopia",
+    "rating": 4.3,
+    "price": 3.71,
+    "img": "https://example.com/images/red_velvet_cake.jpg"
   },
   {
-    "id": 4,
-    "name": "Cheese Burst Pizza",
-    "price": 11.25,
-    "category": "Pizza",
-    "img": "https://i.pinimg.com/474x/b1/fb/ec/b1fbec0f1a305576dcb8fc88f9f92f07.jpg"
+    "food_name": "Red Velvet Cake",
+    "restaurant_name": "Sakura House",
+    "address": "777 Choco St, BurgerTown",
+    "rating": 4.1,
+    "price": 3.02,
+    "img": "https://example.com/images/red_velvet_cake.jpg"
   },
   {
-    "id": 5,
-    "name": "Classic Veg Burger",
-    "price": 5.49,
-    "category": "Burger",
-    "img": "https://i.pinimg.com/474x/2a/82/1b/2a821b50dc1b714f430017ef981e1d12.jpg"
+    "food_name": "Bacon Burger",
+    "restaurant_name": "Tokyo Grill",
+    "address": "204 Elm St, Pizzaville",
+    "rating": 4.7,
+    "price": 7.16,
+    "img": "https://example.com/images/bacon_burger.jpg"
   },
   {
-    "id": 6,
-    "name": "Cheese Burger",
+    "food_name": "Mint Chocolate Chip",
+    "restaurant_name": "Sakura Heaven",
+    "address": "978 Choco St, Cream City",
+    "rating": 4.5,
+    "price": 3.07,
+    "img": "https://example.com/images/mint_chocolate_chip.jpg"
+  },
+  {
+    "food_name": "Grilled Chicken Salad",
+    "restaurant_name": "Scoopz Spot",
+    "address": "800 Oak Ave, Dessertland",
+    "rating": 4.5,
+    "price": 9.04,
+    "img": "https://example.com/images/grilled_chicken_salad.jpg"
+  },
+  {
+    "food_name": "Tuna Nigiri",
+    "restaurant_name": "Nature's House",
+    "address": "217 Berry Dr, Dessertland",
+    "rating": 4.1,
+    "price": 13.66,
+    "img": "https://example.com/images/tuna_nigiri.jpg"
+  },
+  {
+    "food_name": "Salmon Sashimi",
+    "restaurant_name": "Scoopz Kitchen",
+    "address": "682 Choco St, Pizzaville",
+    "rating": 4.7,
+    "price": 10.99,
+    "img": "https://example.com/images/salmon_sashimi.jpg"
+  },
+  {
+    "food_name": "Mint Chocolate Chip",
+    "restaurant_name": "Sakura Palace",
+    "address": "643 Ocean Rd, Healthville",
+    "rating": 4.2,
+    "price": 5.08,
+    "img": "https://example.com/images/mint_chocolate_chip.jpg"
+  },
+  {
+    "food_name": "Tiramisu",
+    "restaurant_name": "Luigi's Grill",
+    "address": "653 Pine Rd, Toastville",
+    "rating": 4.0,
+    "price": 8.5,
+    "img": "https://example.com/images/tiramisu.jpg"
+  },
+  {
+    "food_name": "Kale Quinoa Bowl",
+    "restaurant_name": "Sakura Heaven",
+    "address": "107 Ocean Rd, Dessertland",
+    "rating": 4.6,
+    "price": 11.52,
+    "img": "https://example.com/images/kale_quinoa_bowl.jpg"
+  },
+  {
+    "food_name": "Tiramisu",
+    "restaurant_name": "Sakura Hub",
+    "address": "124 Pine Rd, Dessertland",
+    "rating": 4.4,
+    "price": 7.34,
+    "img": "https://example.com/images/tiramisu.jpg"
+  },
+  {
+    "food_name": "Bacon Burger",
+    "restaurant_name": "Tokyo Grill",
+    "address": "390 Brunch Blvd, Healthville",
+    "rating": 4.8,
+    "price": 9.03,
+    "img": "https://example.com/images/bacon_burger.jpg"
+  },
+  {
+    "food_name": "California Roll",
+    "restaurant_name": "Scoopz Diner",
+    "address": "991 Oak Ave, Toastville",
+    "rating": 4.9,
+    "price": 13.53,
+    "img": "https://example.com/images/california_roll.jpg"
+  },
+  {
+    "food_name": "Chicken Alfredo Pasta",
+    "restaurant_name": "Scoopz Heaven",
+    "address": "406 Choco St, Dessertland",
+    "rating": 4.2,
+    "price": 9.2,
+    "img": "https://example.com/images/chicken_alfredo_pasta.jpg"
+  },
+  {
+    "food_name": "Mushroom Swiss Burger",
+    "restaurant_name": "Luigi's Heaven",
+    "address": "957 Pine Rd, Grilltopia",
+    "rating": 4.1,
+    "price": 8.96,
+    "img": "https://example.com/images/mushroom_swiss_burger.jpg"
+  },
+  {
+    "food_name": "Chocolate Chip Ice Cream",
+    "restaurant_name": "Fit Cafe",
+    "address": "930 Brunch Blvd, Toastville",
+    "rating": 4.7,
+    "price": 6.97,
+    "img": "https://example.com/images/chocolate_chip_ice_cream.jpg"
+  },
+  {
+    "food_name": "Mac and Cheese",
+    "restaurant_name": "Burger Bistro",
+    "address": "437 Maple Blvd, Sushitown",
+    "rating": 5.0,
+    "price": 12.65,
+    "img": "https://example.com/images/mac_and_cheese.jpg"
+  },
+  {
+    "food_name": "Chicken Alfredo Pasta",
+    "restaurant_name": "Sweet Cafe",
+    "address": "593 Choco St, Grilltopia",
+    "rating": 4.4,
+    "price": 11.12,
+    "img": "https://example.com/images/chicken_alfredo_pasta.jpg"
+  },
+  {
+    "food_name": "Spicy Tuna Roll",
+    "restaurant_name": "Sakura Heaven",
+    "address": "488 Choco St, Sushitown",
+    "rating": 4.8,
+    "price": 14.35,
+    "img": "https://example.com/images/spicy_tuna_roll.jpg"
+  },
+  {
+    "food_name": "Grilled Chicken Salad",
+    "restaurant_name": "Sakura Palace",
+    "address": "181 Choco St, Toastville",
+    "rating": 4.3,
+    "price": 9.7,
+    "img": "https://example.com/images/grilled_chicken_salad.jpg"
+  },
+  {
+    "food_name": "BBQ Chicken Pizza",
+    "restaurant_name": "Healthy Palace",
+    "address": "465 Choco St, Grilltopia",
+    "rating": 4.4,
+    "price": 10.21,
+    "img": "https://example.com/images/bbq_chicken_pizza.jpg"
+  },
+  {
+    "food_name": "Avocado Toast",
+    "restaurant_name": "Tokyo Diner",
+    "address": "650 Ocean Rd, Dessertland",
+    "rating": 4.1,
+    "price": 7.98,
+    "img": "https://example.com/images/avocado_toast.jpg"
+  },
+  {
+    "food_name": "Spicy Tuna Roll",
+    "restaurant_name": "Green Diner",
+    "address": "295 Maple Blvd, Toastville",
+    "rating": 4.4,
+    "price": 14.43,
+    "img": "https://example.com/images/spicy_tuna_roll.jpg"
+  },
+  {
+    "food_name": "Grilled Chicken Salad",
+    "restaurant_name": "Scoopz Heaven",
+    "address": "515 Ocean Rd, Healthville",
+    "rating": 4.4,
+    "price": 8.72,
+    "img": "https://example.com/images/grilled_chicken_salad.jpg"
+  },
+  {
+    "food_name": "Tiramisu",
+    "restaurant_name": "Healthy Heaven",
+    "address": "190 Choco St, BurgerTown",
+    "rating": 4.7,
+    "price": 3.65,
+    "img": "https://example.com/images/tiramisu.jpg"
+  },
+  {
+    "food_name": "Strawberry Ice Cream",
+    "restaurant_name": "Healthy Diner",
+    "address": "697 Maple Blvd, BurgerTown",
+    "rating": 4.4,
+    "price": 3.07,
+    "img": "https://example.com/images/strawberry_ice_cream.jpg"
+  },
+  {
+    "food_name": "Penne Arrabbiata",
+    "restaurant_name": "Luigi's Kitchen",
+    "address": "568 Maple Blvd, Toastville",
+    "rating": 4.7,
+    "price": 8.77,
+    "img": "https://example.com/images/penne_arrabbiata.jpg"
+  },
+  {
+    "food_name": "Mushroom Swiss Burger",
+    "restaurant_name": "Scoopz Cafe",
+    "address": "292 Berry Dr, Cream City",
+    "rating": 4.7,
+    "price": 7.39,
+    "img": "https://example.com/images/mushroom_swiss_burger.jpg"
+  },
+  {
+    "food_name": "Pepperoni Pizza",
+    "restaurant_name": "Zen Palace",
+    "address": "158 Pine Rd, Pizzaville",
+    "rating": 4.8,
+    "price": 6.9,
+    "img": "https://example.com/images/pepperoni_pizza.jpg"
+  },
+  {
+    "food_name": "Double Patty Burger",
+    "restaurant_name": "Tony's Cafe",
+    "address": "967 Maple Blvd, Sushitown",
+    "rating": 4.4,
+    "price": 8.63,
+    "img": "https://example.com/images/double_patty_burger.jpg"
+  },
+  {
+    "food_name": "Mushroom Swiss Burger",
+    "restaurant_name": "Scoopz Shack",
+    "address": "443 Choco St, Healthville",
+    "rating": 4.6,
+    "price": 10.21,
+    "img": "https://example.com/images/mushroom_swiss_burger.jpg"
+  },
+  {
+    "food_name": "Lasagna",
+    "restaurant_name": "Nature's Heaven",
+    "address": "753 Choco St, BurgerTown",
+    "rating": 4.0,
+    "price": 8.89,
+    "img": "https://example.com/images/lasagna.jpg"
+  },
+  {
+    "food_name": "Avocado Toast",
+    "restaurant_name": "Luigi's Bistro",
+    "address": "817 Oak Ave, BurgerTown",
+    "rating": 4.1,
+    "price": 8.53,
+    "img": "https://example.com/images/avocado_toast.jpg"
+  },
+  {
+    "food_name": "BBQ Chicken Pizza",
+    "restaurant_name": "Sakura Grill",
+    "address": "547 Ocean Rd, Grilltopia",
+    "rating": 4.4,
+    "price": 6.2,
+    "img": "https://example.com/images/bbq_chicken_pizza.jpg"
+  },
+  {
+    "food_name": "Avocado Toast",
+    "restaurant_name": "Healthy Bistro",
+    "address": "878 Main St, Cream City",
+    "rating": 4.2,
+    "price": 10.0,
+    "img": "https://example.com/images/avocado_toast.jpg"
+  },
+  {
+    "food_name": "BBQ Chicken Pizza",
+    "restaurant_name": "Tokyo Cafe",
+    "address": "854 Maple Blvd, Healthville",
+    "rating": 4.2,
+    "price": 11.93,
+    "img": "https://example.com/images/bbq_chicken_pizza.jpg"
+  },
+  {
+    "food_name": "Hawaiian Pizza",
+    "restaurant_name": "Tokyo Kitchen",
+    "address": "161 Main St, Healthville",
+    "rating": 4.2,
+    "price": 14.67,
+    "img": "https://example.com/images/hawaiian_pizza.jpg"
+  },
+  {
+    "food_name": "Dragon Roll",
+    "restaurant_name": "Tokyo Grill",
+    "address": "821 Choco St, BurgerTown",
+    "rating": 4.2,
+    "price": 11.4,
+    "img": "https://example.com/images/dragon_roll.jpg"
+  },
+  {
+    "food_name": "Veggie Supreme Pizza",
+    "restaurant_name": "Nature's Diner",
+    "address": "792 Elm St, Grilltopia",
+    "rating": 4.7,
+    "price": 6.68,
+    "img": "https://example.com/images/veggie_supreme_pizza.jpg"
+  },
+  {
+    "food_name": "Hawaiian Pizza",
+    "restaurant_name": "Tony's Corner",
+    "address": "736 Brunch Blvd, Toastville",
+    "rating": 4.8,
+    "price": 12.94,
+    "img": "https://example.com/images/hawaiian_pizza.jpg"
+  },
+  {
+    "food_name": "Penne Arrabbiata",
+    "restaurant_name": "Scoopz Cafe",
+    "address": "260 Pine Rd, Toastville",
+    "rating": 4.0,
+    "price": 12.12,
+    "img": "https://example.com/images/penne_arrabbiata.jpg"
+  },
+  {
+    "food_name": "Mango Smoothie",
+    "restaurant_name": "Sweet Palace",
+    "address": "921 Berry Dr, Healthville",
+    "rating": 4.9,
+    "price": 12.05,
+    "img": "https://example.com/images/mango_smoothie.jpg"
+  },
+  {
+    "food_name": "Hawaiian Pizza",
+    "restaurant_name": "Sakura Cafe",
+    "address": "424 Pine Rd, Grilltopia",
+    "rating": 4.9,
+    "price": 13.26,
+    "img": "https://example.com/images/hawaiian_pizza.jpg"
+  },
+  {
+    "food_name": "Double Patty Burger",
+    "restaurant_name": "Healthy Hub",
+    "address": "611 Berry Dr, Pizzaville",
+    "rating": 4.8,
     "price": 6.25,
-    "category": "Burger",
-    "img": "https://i.pinimg.com/474x/5a/fd/c1/5afdc15126999a64c7ac9304f91af584.jpg"
+    "img": "https://example.com/images/double_patty_burger.jpg"
   },
   {
-    "id": 7,
-    "name": "Paneer Tikka Burger",
-    "price": 6.75,
-    "category": "Burger",
-    "img": "https://i.pinimg.com/474x/05/a8/8d/05a88dce73e5ed1345171b4f8c74bbfb.jpg"
+    "food_name": "Cheeseburger",
+    "restaurant_name": "Healthy Shack",
+    "address": "502 Main St, Cream City",
+    "rating": 4.1,
+    "price": 5.97,
+    "img": "https://example.com/images/cheeseburger.jpg"
   },
   {
-    "id": 8,
-    "name": "Chicken Zinger Burger",
-    "price": 7.00,
-    "category": "Burger",
-    "img": "https://i.pinimg.com/474x/98/3c/d0/983cd01a48bc32e9e095dedbd1033b3c.jpg"
+    "food_name": "Bacon Burger",
+    "restaurant_name": "Green Shack",
+    "address": "327 Elm St, Healthville",
+    "rating": 4.7,
+    "price": 10.66,
+    "img": "https://example.com/images/bacon_burger.jpg"
   },
   {
-    "id": 9,
-    "name": "Pasta Alfredo",
-    "price": 7.25,
-    "category": "Pasta",
-    "img": "https://i.pinimg.com/474x/96/2b/8b/962b8bb2c23547863fbfde663008e740.jpg"
+    "food_name": "Avocado Toast",
+    "restaurant_name": "Burger Shack",
+    "address": "594 Oak Ave, Grilltopia",
+    "rating": 4.2,
+    "price": 8.49,
+    "img": "https://example.com/images/avocado_toast.jpg"
   },
   {
-    "id": 10,
-    "name": "Pasta Arrabbiata",
+    "food_name": "Mushroom Swiss Burger",
+    "restaurant_name": "Luigi's House",
+    "address": "110 Choco St, BurgerTown",
+    "rating": 4.1,
+    "price": 10.85,
+    "img": "https://example.com/images/mushroom_swiss_burger.jpg"
+  },
+  {
+    "food_name": "Mac and Cheese",
+    "restaurant_name": "Tony's Spot",
+    "address": "104 Maple Blvd, Grilltopia",
+    "rating": 4.3,
+    "price": 12.62,
+    "img": "https://example.com/images/mac_and_cheese.jpg"
+  },
+  {
+    "food_name": "Veggie Burger",
+    "restaurant_name": "Luigi's Bistro",
+    "address": "726 Brunch Blvd, Dessertland",
+    "rating": 4.4,
+    "price": 6.3,
+    "img": "https://example.com/images/veggie_burger.jpg"
+  },
+  {
+    "food_name": "California Roll",
+    "restaurant_name": "Fit Spot",
+    "address": "135 Elm St, BurgerTown",
+    "rating": 4.6,
+    "price": 15.88,
+    "img": "https://example.com/images/california_roll.jpg"
+  },
+  {
+    "food_name": "Veggie Burger",
+    "restaurant_name": "Nature's Spot",
+    "address": "507 Pine Rd, BurgerTown",
+    "rating": 4.4,
+    "price": 5.15,
+    "img": "https://example.com/images/veggie_burger.jpg"
+  },
+  {
+    "food_name": "Dragon Roll",
+    "restaurant_name": "Scoopz Spot",
+    "address": "374 Choco St, Grilltopia",
+    "rating": 4.7,
+    "price": 11.79,
+    "img": "https://example.com/images/dragon_roll.jpg"
+  },
+  {
+    "food_name": "Bacon Burger",
+    "restaurant_name": "Green Cafe",
+    "address": "885 Choco St, Dessertland",
+    "rating": 4.8,
+    "price": 8.53,
+    "img": "https://example.com/images/bacon_burger.jpg"
+  },
+  {
+    "food_name": "Red Velvet Cake",
+    "restaurant_name": "Healthy Shack",
+    "address": "615 Brunch Blvd, BurgerTown",
+    "rating": 4.2,
+    "price": 6.5,
+    "img": "https://example.com/images/red_velvet_cake.jpg"
+  },
+  {
+    "food_name": "Mushroom Swiss Burger",
+    "restaurant_name": "Tokyo Grill",
+    "address": "740 Elm St, BurgerTown",
+    "rating": 4.5,
+    "price": 6.88,
+    "img": "https://example.com/images/mushroom_swiss_burger.jpg"
+  },
+  {
+    "food_name": "Hawaiian Pizza",
+    "restaurant_name": "Scoopz Bistro",
+    "address": "716 Oak Ave, BurgerTown",
+    "rating": 5.0,
+    "price": 7.77,
+    "img": "https://example.com/images/hawaiian_pizza.jpg"
+  },
+  {
+    "food_name": "Salmon Sashimi",
+    "restaurant_name": "Nature's House",
+    "address": "137 Brunch Blvd, BurgerTown",
+    "rating": 4.3,
+    "price": 9.63,
+    "img": "https://example.com/images/salmon_sashimi.jpg"
+  },
+  {
+    "food_name": "Mushroom Swiss Burger",
+    "restaurant_name": "Green Diner",
+    "address": "895 Maple Blvd, Toastville",
+    "rating": 4.9,
+    "price": 8.83,
+    "img": "https://example.com/images/mushroom_swiss_burger.jpg"
+  },
+  {
+    "food_name": "Oreo Milkshake",
+    "restaurant_name": "Tokyo House",
+    "address": "464 Ocean Rd, Pizzaville",
+    "rating": 4.8,
+    "price": 4.13,
+    "img": "https://example.com/images/oreo_milkshake.jpg"
+  },
+  {
+    "food_name": "Fruit Salad",
+    "restaurant_name": "Nature's Corner",
+    "address": "542 Elm St, Grilltopia",
+    "rating": 4.4,
+    "price": 10.95,
+    "img": "https://example.com/images/fruit_salad.jpg"
+  },
+  {
+    "food_name": "Double Patty Burger",
+    "restaurant_name": "Green Spot",
+    "address": "172 Brunch Blvd, BurgerTown",
+    "rating": 4.8,
+    "price": 9.69,
+    "img": "https://example.com/images/double_patty_burger.jpg"
+  },
+  {
+    "food_name": "Mint Chocolate Chip",
+    "restaurant_name": "Sakura Diner",
+    "address": "650 Berry Dr, Toastville",
+    "rating": 4.6,
+    "price": 2.21,
+    "img": "https://example.com/images/mint_chocolate_chip.jpg"
+  },
+  {
+    "food_name": "Chocolate Chip Ice Cream",
+    "restaurant_name": "Luigi's Diner",
+    "address": "845 Elm St, Pizzaville",
+    "rating": 4.5,
+    "price": 3.3,
+    "img": "https://example.com/images/chocolate_chip_ice_cream.jpg"
+  },
+  {
+    "food_name": "Penne Arrabbiata",
+    "restaurant_name": "Tony's Grill",
+    "address": "185 Main St, Cream City",
+    "rating": 4.5,
+    "price": 11.73,
+    "img": "https://example.com/images/penne_arrabbiata.jpg"
+  },
+  {
+    "food_name": "Bacon Burger",
+    "restaurant_name": "Nature's Palace",
+    "address": "373 Main St, BurgerTown",
+    "rating": 5.0,
+    "price": 9.41,
+    "img": "https://example.com/images/bacon_burger.jpg"
+  },
+  {
+    "food_name": "Dragon Roll",
+    "restaurant_name": "Green House",
+    "address": "199 Maple Blvd, Cream City",
+    "rating": 4.5,
+    "price": 10.91,
+    "img": "https://example.com/images/dragon_roll.jpg"
+  },
+  {
+    "food_name": "Mint Chocolate Chip",
+    "restaurant_name": "Fit Kitchen",
+    "address": "697 Main St, Healthville",
+    "rating": 4.1,
+    "price": 5.49,
+    "img": "https://example.com/images/mint_chocolate_chip.jpg"
+  },
+  {
+    "food_name": "Oreo Milkshake",
+    "restaurant_name": "Burger Corner",
+    "address": "161 Berry Dr, Grilltopia",
+    "rating": 4.3,
+    "price": 4.2,
+    "img": "https://example.com/images/oreo_milkshake.jpg"
+  },
+  {
+    "food_name": "Apple Pie",
+    "restaurant_name": "Luigi's Grill",
+    "address": "754 Pine Rd, Healthville",
+    "rating": 4.0,
+    "price": 4.64,
+    "img": "https://example.com/images/apple_pie.jpg"
+  },
+  {
+    "food_name": "Spaghetti Bolognese",
+    "restaurant_name": "Nature's Corner",
+    "address": "515 Elm St, BurgerTown",
+    "rating": 4.9,
+    "price": 11.85,
+    "img": "https://example.com/images/spaghetti_bolognese.jpg"
+  },
+  {
+    "food_name": "Mushroom Swiss Burger",
+    "restaurant_name": "Fit Hub",
+    "address": "692 Maple Blvd, Pizzaville",
+    "rating": 4.6,
+    "price": 10.41,
+    "img": "https://example.com/images/mushroom_swiss_burger.jpg"
+  },
+  {
+    "food_name": "Margherita Pizza",
+    "restaurant_name": "Tony's Bistro",
+    "address": "580 Oak Ave, Dessertland",
+    "rating": 4.7,
+    "price": 7.12,
+    "img": "https://example.com/images/margherita_pizza.jpg"
+  },
+  {
+    "food_name": "Strawberry Ice Cream",
+    "restaurant_name": "Healthy Shack",
+    "address": "178 Main St, Cream City",
+    "rating": 4.1,
+    "price": 6.18,
+    "img": "https://example.com/images/strawberry_ice_cream.jpg"
+  },
+  {
+    "food_name": "Mac and Cheese",
+    "restaurant_name": "Sweet Shack",
+    "address": "365 Elm St, Pizzaville",
+    "rating": 4.2,
+    "price": 11.85,
+    "img": "https://example.com/images/mac_and_cheese.jpg"
+  },
+  {
+    "food_name": "Pepperoni Pizza",
+    "restaurant_name": "Sakura Bistro",
+    "address": "662 Brunch Blvd, Sushitown",
+    "rating": 4.9,
+    "price": 8.35,
+    "img": "https://example.com/images/pepperoni_pizza.jpg"
+  },
+  {
+    "food_name": "Hawaiian Pizza",
+    "restaurant_name": "Healthy House",
+    "address": "834 Oak Ave, Healthville",
+    "rating": 4.5,
+    "price": 13.54,
+    "img": "https://example.com/images/hawaiian_pizza.jpg"
+  },
+  {
+    "food_name": "Fruit Salad",
+    "restaurant_name": "Tokyo Shack",
+    "address": "856 Brunch Blvd, Toastville",
+    "rating": 4.7,
+    "price": 10.4,
+    "img": "https://example.com/images/fruit_salad.jpg"
+  },
+  {
+    "food_name": "Mac and Cheese",
+    "restaurant_name": "Tony's Shack",
+    "address": "245 Maple Blvd, Sushitown",
+    "rating": 4.6,
+    "price": 8.13,
+    "img": "https://example.com/images/mac_and_cheese.jpg"
+  },
+  {
+    "food_name": "Kale Quinoa Bowl",
+    "restaurant_name": "Tony's Cafe",
+    "address": "402 Brunch Blvd, BurgerTown",
+    "rating": 4.8,
+    "price": 8.94,
+    "img": "https://example.com/images/kale_quinoa_bowl.jpg"
+  },
+  {
+    "food_name": "Mac and Cheese",
+    "restaurant_name": "Tony's Kitchen",
+    "address": "664 Brunch Blvd, Pizzaville",
+    "rating": 4.9,
+    "price": 10.6,
+    "img": "https://example.com/images/mac_and_cheese.jpg"
+  },
+  {
+    "food_name": "Apple Pie",
+    "restaurant_name": "Scoopz Hub",
+    "address": "239 Pine Rd, Cream City",
+    "rating": 4.4,
+    "price": 8.48,
+    "img": "https://example.com/images/apple_pie.jpg"
+  },
+  {
+    "food_name": "Chicken Alfredo Pasta",
+    "restaurant_name": "Tony's Heaven",
+    "address": "268 Main St, Pizzaville",
+    "rating": 4.4,
+    "price": 10.08,
+    "img": "https://example.com/images/chicken_alfredo_pasta.jpg"
+  },
+  {
+    "food_name": "BBQ Chicken Pizza",
+    "restaurant_name": "Scoopz Heaven",
+    "address": "250 Brunch Blvd, BurgerTown",
+    "rating": 4.4,
+    "price": 6.2,
+    "img": "https://example.com/images/bbq_chicken_pizza.jpg"
+  },
+  {
+    "food_name": "Penne Arrabbiata",
+    "restaurant_name": "Healthy Cafe",
+    "address": "944 Ocean Rd, Toastville",
+    "rating": 4.2,
+    "price": 7.79,
+    "img": "https://example.com/images/penne_arrabbiata.jpg"
+  },
+  {
+    "food_name": "Tiramisu",
+    "restaurant_name": "Scoopz Kitchen",
+    "address": "903 Maple Blvd, BurgerTown",
+    "rating": 4.3,
+    "price": 4.75,
+    "img": "https://example.com/images/tiramisu.jpg"
+  },
+  {
+    "food_name": "Vanilla Ice Cream",
+    "restaurant_name": "Sakura House",
+    "address": "113 Elm St, Sushitown",
+    "rating": 4.2,
+    "price": 3.11,
+    "img": "https://example.com/images/vanilla_ice_cream.jpg"
+  },
+  {
+    "food_name": "Cheeseburger",
+    "restaurant_name": "Sweet Spot",
+    "address": "730 Brunch Blvd, Healthville",
+    "rating": 4.4,
+    "price": 5.64,
+    "img": "https://example.com/images/cheeseburger.jpg"
+  },
+  {
+    "food_name": "Grilled Chicken Salad",
+    "restaurant_name": "Sweet Palace",
+    "address": "454 Maple Blvd, Sushitown",
+    "rating": 4.7,
+    "price": 10.23,
+    "img": "https://example.com/images/grilled_chicken_salad.jpg"
+  },
+  {
+    "food_name": "Strawberry Ice Cream",
+    "restaurant_name": "Scoopz Kitchen",
+    "address": "911 Ocean Rd, Pizzaville",
+    "rating": 4.8,
+    "price": 4.33,
+    "img": "https://example.com/images/strawberry_ice_cream.jpg"
+  },
+  {
+    "food_name": "Lasagna",
+    "restaurant_name": "Luigi's Corner",
+    "address": "869 Ocean Rd, Grilltopia",
+    "rating": 4.1,
+    "price": 12.67,
+    "img": "https://example.com/images/lasagna.jpg"
+  },
+  {
+    "food_name": "Strawberry Ice Cream",
+    "restaurant_name": "Zen Heaven",
+    "address": "964 Choco St, Healthville",
+    "rating": 4.5,
+    "price": 3.37,
+    "img": "https://example.com/images/strawberry_ice_cream.jpg"
+  },
+  {
+    "food_name": "Veggie Supreme Pizza",
+    "restaurant_name": "Tokyo Grill",
+    "address": "312 Elm St, Sushitown",
+    "rating": 4.0,
+    "price": 7.47,
+    "img": "https://example.com/images/veggie_supreme_pizza.jpg"
+  },
+  {
+    "food_name": "Strawberry Ice Cream",
+    "restaurant_name": "Tokyo Shack",
+    "address": "164 Main St, Pizzaville",
+    "rating": 4.8,
+    "price": 3.88,
+    "img": "https://example.com/images/strawberry_ice_cream.jpg"
+  },
+  {
+    "food_name": "Lasagna",
+    "restaurant_name": "Healthy Kitchen",
+    "address": "116 Brunch Blvd, Toastville",
+    "rating": 4.8,
+    "price": 13.17,
+    "img": "https://example.com/images/lasagna.jpg"
+  },
+  {
+    "food_name": "Tiramisu",
+    "restaurant_name": "Burger Spot",
+    "address": "944 Cedar Ln, Toastville",
+    "rating": 4.4,
+    "price": 6.0,
+    "img": "https://example.com/images/tiramisu.jpg"
+  },
+  {
+    "food_name": "Strawberry Cheesecake",
+    "restaurant_name": "Scoopz Cafe",
+    "address": "341 Brunch Blvd, Healthville",
+    "rating": 4.7,
+    "price": 8.44,
+    "img": "https://example.com/images/strawberry_cheesecake.jpg"
+  },
+  {
+    "food_name": "Salmon Sashimi",
+    "restaurant_name": "Green Palace",
+    "address": "594 Elm St, BurgerTown",
+    "rating": 4.2,
+    "price": 13.19,
+    "img": "https://example.com/images/salmon_sashimi.jpg"
+  },
+  {
+    "food_name": "Pepperoni Pizza",
+    "restaurant_name": "Zen Palace",
+    "address": "489 Main St, Pizzaville",
+    "rating": 4.7,
+    "price": 13.24,
+    "img": "https://example.com/images/pepperoni_pizza.jpg"
+  },
+  {
+    "food_name": "Margherita Pizza",
+    "restaurant_name": "Zen Diner",
+    "address": "996 Elm St, BurgerTown",
+    "rating": 4.1,
+    "price": 9.19,
+    "img": "https://example.com/images/margherita_pizza.jpg"
+  },
+  {
+    "food_name": "Double Patty Burger",
+    "restaurant_name": "Scoopz Kitchen",
+    "address": "625 Berry Dr, Healthville",
+    "rating": 4.9,
+    "price": 11.95,
+    "img": "https://example.com/images/double_patty_burger.jpg"
+  },
+  {
+    "food_name": "Mint Chocolate Chip",
+    "restaurant_name": "Tokyo Kitchen",
+    "address": "240 Maple Blvd, Pizzaville",
+    "rating": 4.9,
+    "price": 5.23,
+    "img": "https://example.com/images/mint_chocolate_chip.jpg"
+  },
+  {
+    "food_name": "Mac and Cheese",
+    "restaurant_name": "Nature's Palace",
+    "address": "792 Berry Dr, Healthville",
+    "rating": 4.3,
+    "price": 8.35,
+    "img": "https://example.com/images/mac_and_cheese.jpg"
+  },
+  {
+    "food_name": "Kale Quinoa Bowl",
+    "restaurant_name": "Fit Diner",
+    "address": "787 Maple Blvd, Sushitown",
+    "rating": 4.6,
+    "price": 9.06,
+    "img": "https://example.com/images/kale_quinoa_bowl.jpg"
+  },
+  {
+    "food_name": "Mango Smoothie",
+    "restaurant_name": "Luigi's Palace",
+    "address": "641 Ocean Rd, Cream City",
+    "rating": 4.3,
+    "price": 12.36,
+    "img": "https://example.com/images/mango_smoothie.jpg"
+  },
+  {
+    "food_name": "Spicy Tuna Roll",
+    "restaurant_name": "Tony's Bistro",
+    "address": "339 Main St, Toastville",
+    "rating": 4.8,
+    "price": 11.21,
+    "img": "https://example.com/images/spicy_tuna_roll.jpg"
+  },
+  {
+    "food_name": "Oreo Milkshake",
+    "restaurant_name": "Tokyo Spot",
+    "address": "959 Cedar Ln, BurgerTown",
+    "rating": 4.7,
+    "price": 5.61,
+    "img": "https://example.com/images/oreo_milkshake.jpg"
+  },
+  {
+    "food_name": "Spaghetti Bolognese",
+    "restaurant_name": "Scoopz Palace",
+    "address": "808 Berry Dr, BurgerTown",
+    "rating": 4.6,
+    "price": 12.97,
+    "img": "https://example.com/images/spaghetti_bolognese.jpg"
+  },
+  {
+    "food_name": "Vanilla Ice Cream",
+    "restaurant_name": "Fit Bistro",
+    "address": "711 Ocean Rd, Sushitown",
+    "rating": 4.8,
+    "price": 6.52,
+    "img": "https://example.com/images/vanilla_ice_cream.jpg"
+  },
+  {
+    "food_name": "Fruit Salad",
+    "restaurant_name": "Burger House",
+    "address": "279 Elm St, Sushitown",
+    "rating": 4.5,
+    "price": 12.31,
+    "img": "https://example.com/images/fruit_salad.jpg"
+  },
+  {
+    "food_name": "Red Velvet Cake",
+    "restaurant_name": "Sakura Cafe",
+    "address": "213 Choco St, BurgerTown",
+    "rating": 4.4,
+    "price": 6.17,
+    "img": "https://example.com/images/red_velvet_cake.jpg"
+  },
+  {
+    "food_name": "California Roll",
+    "restaurant_name": "Healthy Palace",
+    "address": "249 Elm St, Cream City",
+    "rating": 4.3,
+    "price": 12.03,
+    "img": "https://example.com/images/california_roll.jpg"
+  },
+  {
+    "food_name": "Cheeseburger",
+    "restaurant_name": "Zen House",
+    "address": "406 Maple Blvd, BurgerTown",
+    "rating": 4.1,
+    "price": 6.83,
+    "img": "https://example.com/images/cheeseburger.jpg"
+  },
+  {
+    "food_name": "Cheeseburger",
+    "restaurant_name": "Green Corner",
+    "address": "523 Pine Rd, BurgerTown",
+    "rating": 4.6,
+    "price": 10.53,
+    "img": "https://example.com/images/cheeseburger.jpg"
+  },
+  {
+    "food_name": "Grilled Chicken Salad",
+    "restaurant_name": "Burger House",
+    "address": "955 Main St, Dessertland",
+    "rating": 4.3,
+    "price": 10.87,
+    "img": "https://example.com/images/grilled_chicken_salad.jpg"
+  },
+  {
+    "food_name": "Mango Smoothie",
+    "restaurant_name": "Tokyo Diner",
+    "address": "864 Pine Rd, Healthville",
+    "rating": 4.2,
+    "price": 12.76,
+    "img": "https://example.com/images/mango_smoothie.jpg"
+  },
+  {
+    "food_name": "Strawberry Ice Cream",
+    "restaurant_name": "Tony's Spot",
+    "address": "178 Ocean Rd, Sushitown",
+    "rating": 4.6,
+    "price": 5.13,
+    "img": "https://example.com/images/strawberry_ice_cream.jpg"
+  },
+  {
+    "food_name": "Chocolate Chip Ice Cream",
+    "restaurant_name": "Scoopz Heaven",
+    "address": "259 Brunch Blvd, Grilltopia",
+    "rating": 4.0,
+    "price": 2.88,
+    "img": "https://example.com/images/chocolate_chip_ice_cream.jpg"
+  },
+  {
+    "food_name": "Kale Quinoa Bowl",
+    "restaurant_name": "Tony's Kitchen",
+    "address": "339 Elm St, Sushitown",
+    "rating": 4.8,
+    "price": 11.2,
+    "img": "https://example.com/images/kale_quinoa_bowl.jpg"
+  },
+  {
+    "food_name": "Double Patty Burger",
+    "restaurant_name": "Nature's Grill",
+    "address": "953 Cedar Ln, Cream City",
+    "rating": 4.7,
+    "price": 7.81,
+    "img": "https://example.com/images/double_patty_burger.jpg"
+  },
+  {
+    "food_name": "Double Patty Burger",
+    "restaurant_name": "Sakura House",
+    "address": "326 Choco St, Dessertland",
+    "rating": 4.6,
+    "price": 8.93,
+    "img": "https://example.com/images/double_patty_burger.jpg"
+  },
+  {
+    "food_name": "Chocolate Chip Ice Cream",
+    "restaurant_name": "Tokyo Cafe",
+    "address": "554 Cedar Ln, Grilltopia",
+    "rating": 4.3,
+    "price": 3.46,
+    "img": "https://example.com/images/chocolate_chip_ice_cream.jpg"
+  },
+  {
+    "food_name": "Lasagna",
+    "restaurant_name": "Burger Heaven",
+    "address": "713 Pine Rd, Toastville",
+    "rating": 4.7,
+    "price": 10.26,
+    "img": "https://example.com/images/lasagna.jpg"
+  },
+  {
+    "food_name": "Spaghetti Bolognese",
+    "restaurant_name": "Scoopz Spot",
+    "address": "387 Maple Blvd, Dessertland",
+    "rating": 4.0,
+    "price": 7.38,
+    "img": "https://example.com/images/spaghetti_bolognese.jpg"
+  },
+  {
+    "food_name": "Veggie Burger",
+    "restaurant_name": "Luigi's Shack",
+    "address": "501 Brunch Blvd, Healthville",
+    "rating": 4.7,
+    "price": 10.49,
+    "img": "https://example.com/images/veggie_burger.jpg"
+  },
+  {
+    "food_name": "Chocolate Chip Ice Cream",
+    "restaurant_name": "Luigi's Diner",
+    "address": "839 Main St, Pizzaville",
+    "rating": 4.8,
+    "price": 3.27,
+    "img": "https://example.com/images/chocolate_chip_ice_cream.jpg"
+  },
+  {
+    "food_name": "Mac and Cheese",
+    "restaurant_name": "Zen Bistro",
+    "address": "168 Cedar Ln, Pizzaville",
+    "rating": 4.6,
+    "price": 8.8,
+    "img": "https://example.com/images/mac_and_cheese.jpg"
+  },
+  {
+    "food_name": "Spaghetti Bolognese",
+    "restaurant_name": "Healthy Spot",
+    "address": "675 Cedar Ln, Dessertland",
+    "rating": 4.9,
+    "price": 7.13,
+    "img": "https://example.com/images/spaghetti_bolognese.jpg"
+  },
+  {
+    "food_name": "BBQ Chicken Pizza",
+    "restaurant_name": "Tokyo Shack",
+    "address": "831 Pine Rd, Toastville",
+    "rating": 4.2,
+    "price": 6.33,
+    "img": "https://example.com/images/bbq_chicken_pizza.jpg"
+  },
+  {
+    "food_name": "Chocolate Chip Ice Cream",
+    "restaurant_name": "Sakura Cafe",
+    "address": "152 Pine Rd, Pizzaville",
+    "rating": 4.3,
+    "price": 4.24,
+    "img": "https://example.com/images/chocolate_chip_ice_cream.jpg"
+  },
+  {
+    "food_name": "Kale Quinoa Bowl",
+    "restaurant_name": "Burger Cafe",
+    "address": "712 Ocean Rd, Cream City",
+    "rating": 4.4,
+    "price": 8.46,
+    "img": "https://example.com/images/kale_quinoa_bowl.jpg"
+  },
+  {
+    "food_name": "Chicken Alfredo Pasta",
+    "restaurant_name": "Sweet Diner",
+    "address": "414 Pine Rd, Cream City",
+    "rating": 4.5,
+    "price": 10.01,
+    "img": "https://example.com/images/chicken_alfredo_pasta.jpg"
+  },
+  {
+    "food_name": "Chocolate Chip Ice Cream",
+    "restaurant_name": "Tony's Corner",
+    "address": "182 Brunch Blvd, Grilltopia",
+    "rating": 4.7,
+    "price": 5.44,
+    "img": "https://example.com/images/chocolate_chip_ice_cream.jpg"
+  },
+  {
+    "food_name": "Vanilla Ice Cream",
+    "restaurant_name": "Scoopz House",
+    "address": "209 Berry Dr, Pizzaville",
+    "rating": 4.4,
+    "price": 4.2,
+    "img": "https://example.com/images/vanilla_ice_cream.jpg"
+  },
+  {
+    "food_name": "Hawaiian Pizza",
+    "restaurant_name": "Green House",
+    "address": "255 Pine Rd, Healthville",
+    "rating": 4.5,
+    "price": 6.83,
+    "img": "https://example.com/images/hawaiian_pizza.jpg"
+  },
+  {
+    "food_name": "Hawaiian Pizza",
+    "restaurant_name": "Luigi's House",
+    "address": "248 Brunch Blvd, Dessertland",
+    "rating": 4.1,
+    "price": 14.57,
+    "img": "https://example.com/images/hawaiian_pizza.jpg"
+  },
+  {
+    "food_name": "Grilled Chicken Salad",
+    "restaurant_name": "Healthy Bistro",
+    "address": "252 Main St, BurgerTown",
+    "rating": 4.7,
+    "price": 12.75,
+    "img": "https://example.com/images/grilled_chicken_salad.jpg"
+  },
+  {
+    "food_name": "Chocolate Chip Ice Cream",
+    "restaurant_name": "Nature's Bistro",
+    "address": "662 Maple Blvd, BurgerTown",
+    "rating": 4.0,
+    "price": 2.91,
+    "img": "https://example.com/images/chocolate_chip_ice_cream.jpg"
+  },
+  {
+    "food_name": "Apple Pie",
+    "restaurant_name": "Tokyo Bistro",
+    "address": "233 Elm St, Cream City",
+    "rating": 4.4,
+    "price": 3.41,
+    "img": "https://example.com/images/apple_pie.jpg"
+  },
+  {
+    "food_name": "Cheeseburger",
+    "restaurant_name": "Tokyo Kitchen",
+    "address": "951 Cedar Ln, Dessertland",
+    "rating": 4.5,
+    "price": 9.04,
+    "img": "https://example.com/images/cheeseburger.jpg"
+  },
+  {
+    "food_name": "Strawberry Cheesecake",
+    "restaurant_name": "Zen Grill",
+    "address": "757 Main St, Cream City",
+    "rating": 4.1,
+    "price": 4.18,
+    "img": "https://example.com/images/strawberry_cheesecake.jpg"
+  },
+  {
+    "food_name": "Penne Arrabbiata",
+    "restaurant_name": "Tokyo Diner",
+    "address": "383 Maple Blvd, Grilltopia",
+    "rating": 4.2,
+    "price": 8.61,
+    "img": "https://example.com/images/penne_arrabbiata.jpg"
+  },
+  {
+    "food_name": "Chicken Alfredo Pasta",
+    "restaurant_name": "Healthy Shack",
+    "address": "389 Pine Rd, Healthville",
+    "rating": 4.0,
+    "price": 11.74,
+    "img": "https://example.com/images/chicken_alfredo_pasta.jpg"
+  },
+  {
+    "food_name": "Margherita Pizza",
+    "restaurant_name": "Tokyo Hub",
+    "address": "234 Oak Ave, Grilltopia",
+    "rating": 4.4,
+    "price": 12.84,
+    "img": "https://example.com/images/margherita_pizza.jpg"
+  },
+  {
+    "food_name": "Spicy Tuna Roll",
+    "restaurant_name": "Green Hub",
+    "address": "447 Cedar Ln, Toastville",
+    "rating": 4.3,
+    "price": 17.29,
+    "img": "https://example.com/images/spicy_tuna_roll.jpg"
+  },
+  {
+    "food_name": "Strawberry Ice Cream",
+    "restaurant_name": "Fit Corner",
+    "address": "728 Main St, Toastville",
+    "rating": 4.5,
+    "price": 5.0,
+    "img": "https://example.com/images/strawberry_ice_cream.jpg"
+  },
+  {
+    "food_name": "Dragon Roll",
+    "restaurant_name": "Tokyo Corner",
+    "address": "968 Cedar Ln, Pizzaville",
+    "rating": 4.1,
+    "price": 11.18,
+    "img": "https://example.com/images/dragon_roll.jpg"
+  },
+  {
+    "food_name": "Chocolate Chip Ice Cream",
+    "restaurant_name": "Tokyo Diner",
+    "address": "705 Oak Ave, Cream City",
+    "rating": 4.2,
+    "price": 5.89,
+    "img": "https://example.com/images/chocolate_chip_ice_cream.jpg"
+  },
+  {
+    "food_name": "Veggie Supreme Pizza",
+    "restaurant_name": "Nature's Kitchen",
+    "address": "600 Brunch Blvd, Cream City",
+    "rating": 4.8,
+    "price": 11.88,
+    "img": "https://example.com/images/veggie_supreme_pizza.jpg"
+  },
+  {
+    "food_name": "Red Velvet Cake",
+    "restaurant_name": "Fit Hub",
+    "address": "129 Main St, Dessertland",
+    "rating": 4.1,
+    "price": 8.74,
+    "img": "https://example.com/images/red_velvet_cake.jpg"
+  },
+  {
+    "food_name": "Double Patty Burger",
+    "restaurant_name": "Luigi's Corner",
+    "address": "681 Maple Blvd, Grilltopia",
+    "rating": 4.6,
+    "price": 5.32,
+    "img": "https://example.com/images/double_patty_burger.jpg"
+  },
+  {
+    "food_name": "Chocolate Brownie",
+    "restaurant_name": "Tokyo Bistro",
+    "address": "730 Ocean Rd, Toastville",
+    "rating": 4.2,
+    "price": 7.41,
+    "img": "https://example.com/images/chocolate_brownie.jpg"
+  },
+  {
+    "food_name": "Tuna Nigiri",
+    "restaurant_name": "Burger Palace",
+    "address": "316 Ocean Rd, Cream City",
+    "rating": 5.0,
+    "price": 10.81,
+    "img": "https://example.com/images/tuna_nigiri.jpg"
+  },
+  {
+    "food_name": "Hawaiian Pizza",
+    "restaurant_name": "Burger Grill",
+    "address": "393 Elm St, Healthville",
+    "rating": 4.9,
+    "price": 11.73,
+    "img": "https://example.com/images/hawaiian_pizza.jpg"
+  },
+  {
+    "food_name": "Chocolate Chip Ice Cream",
+    "restaurant_name": "Scoopz Diner",
+    "address": "684 Berry Dr, Dessertland",
+    "rating": 4.9,
+    "price": 5.19,
+    "img": "https://example.com/images/chocolate_chip_ice_cream.jpg"
+  },
+  {
+    "food_name": "Strawberry Cheesecake",
+    "restaurant_name": "Tokyo Diner",
+    "address": "213 Oak Ave, Dessertland",
+    "rating": 4.8,
+    "price": 5.68,
+    "img": "https://example.com/images/strawberry_cheesecake.jpg"
+  },
+  {
+    "food_name": "Tuna Nigiri",
+    "restaurant_name": "Nature's Diner",
+    "address": "146 Choco St, Healthville",
+    "rating": 4.8,
+    "price": 15.81,
+    "img": "https://example.com/images/tuna_nigiri.jpg"
+  },
+  {
+    "food_name": "Strawberry Cheesecake",
+    "restaurant_name": "Luigi's Bistro",
+    "address": "490 Brunch Blvd, Sushitown",
+    "rating": 4.7,
+    "price": 6.26,
+    "img": "https://example.com/images/strawberry_cheesecake.jpg"
+  },
+  {
+    "food_name": "Veggie Supreme Pizza",
+    "restaurant_name": "Green Bistro",
+    "address": "729 Brunch Blvd, BurgerTown",
+    "rating": 4.6,
+    "price": 13.46,
+    "img": "https://example.com/images/veggie_supreme_pizza.jpg"
+  },
+  {
+    "food_name": "Pepperoni Pizza",
+    "restaurant_name": "Tony's Shack",
+    "address": "373 Elm St, Healthville",
+    "rating": 4.3,
+    "price": 11.7,
+    "img": "https://example.com/images/pepperoni_pizza.jpg"
+  },
+  {
+    "food_name": "Oreo Milkshake",
+    "restaurant_name": "Zen Palace",
+    "address": "259 Choco St, BurgerTown",
+    "rating": 4.2,
+    "price": 5.3,
+    "img": "https://example.com/images/oreo_milkshake.jpg"
+  },
+  {
+    "food_name": "Margherita Pizza",
+    "restaurant_name": "Scoopz Grill",
+    "address": "913 Ocean Rd, Healthville",
+    "rating": 4.4,
+    "price": 10.57,
+    "img": "https://example.com/images/margherita_pizza.jpg"
+  },
+  {
+    "food_name": "Mint Chocolate Chip",
+    "restaurant_name": "Green Diner",
+    "address": "570 Pine Rd, Grilltopia",
+    "rating": 4.9,
+    "price": 2.31,
+    "img": "https://example.com/images/mint_chocolate_chip.jpg"
+  },
+  {
+    "food_name": "Tuna Nigiri",
+    "restaurant_name": "Tokyo Corner",
+    "address": "708 Elm St, Grilltopia",
+    "rating": 4.1,
+    "price": 15.84,
+    "img": "https://example.com/images/tuna_nigiri.jpg"
+  },
+  {
+    "food_name": "Red Velvet Cake",
+    "restaurant_name": "Sweet Palace",
+    "address": "830 Maple Blvd, Toastville",
+    "rating": 4.1,
+    "price": 5.22,
+    "img": "https://example.com/images/red_velvet_cake.jpg"
+  },
+  {
+    "food_name": "Red Velvet Cake",
+    "restaurant_name": "Zen Heaven",
+    "address": "766 Choco St, Dessertland",
+    "rating": 4.1,
+    "price": 8.21,
+    "img": "https://example.com/images/red_velvet_cake.jpg"
+  },
+  {
+    "food_name": "Veggie Supreme Pizza",
+    "restaurant_name": "Scoopz Corner",
+    "address": "965 Oak Ave, Grilltopia",
+    "rating": 4.6,
+    "price": 9.74,
+    "img": "https://example.com/images/veggie_supreme_pizza.jpg"
+  },
+  {
+    "food_name": "Bacon Burger",
+    "restaurant_name": "Burger Grill",
+    "address": "972 Choco St, Toastville",
+    "rating": 4.9,
+    "price": 11.5,
+    "img": "https://example.com/images/bacon_burger.jpg"
+  },
+  {
+    "food_name": "Cheeseburger",
+    "restaurant_name": "Sweet Hub",
+    "address": "986 Main St, Toastville",
+    "rating": 4.5,
+    "price": 8.23,
+    "img": "https://example.com/images/cheeseburger.jpg"
+  },
+  {
+    "food_name": "Mushroom Swiss Burger",
+    "restaurant_name": "Fit Corner",
+    "address": "525 Ocean Rd, Cream City",
+    "rating": 4.3,
+    "price": 5.76,
+    "img": "https://example.com/images/mushroom_swiss_burger.jpg"
+  },
+  {
+    "food_name": "Veggie Supreme Pizza",
+    "restaurant_name": "Nature's Spot",
+    "address": "995 Maple Blvd, Dessertland",
+    "rating": 4.7,
+    "price": 8.95,
+    "img": "https://example.com/images/veggie_supreme_pizza.jpg"
+  },
+  {
+    "food_name": "Chocolate Brownie",
+    "restaurant_name": "Healthy Palace",
+    "address": "220 Main St, Pizzaville",
+    "rating": 4.8,
+    "price": 7.07,
+    "img": "https://example.com/images/chocolate_brownie.jpg"
+  },
+  {
+    "food_name": "Veggie Supreme Pizza",
+    "restaurant_name": "Sweet Kitchen",
+    "address": "173 Maple Blvd, Grilltopia",
+    "rating": 4.4,
+    "price": 8.82,
+    "img": "https://example.com/images/veggie_supreme_pizza.jpg"
+  },
+  {
+    "food_name": "Grilled Chicken Salad",
+    "restaurant_name": "Tokyo Diner",
+    "address": "232 Berry Dr, Cream City",
+    "rating": 4.4,
+    "price": 11.49,
+    "img": "https://example.com/images/grilled_chicken_salad.jpg"
+  },
+  {
+    "food_name": "Tuna Nigiri",
+    "restaurant_name": "Fit House",
+    "address": "888 Ocean Rd, Grilltopia",
+    "rating": 4.6,
+    "price": 13.99,
+    "img": "https://example.com/images/tuna_nigiri.jpg"
+  },
+  {
+    "food_name": "Penne Arrabbiata",
+    "restaurant_name": "Sweet Palace",
+    "address": "898 Pine Rd, Dessertland",
+    "rating": 4.8,
+    "price": 12.41,
+    "img": "https://example.com/images/penne_arrabbiata.jpg"
+  },
+  {
+    "food_name": "Vanilla Ice Cream",
+    "restaurant_name": "Burger Bistro",
+    "address": "685 Brunch Blvd, Grilltopia",
+    "rating": 4.1,
+    "price": 5.01,
+    "img": "https://example.com/images/vanilla_ice_cream.jpg"
+  },
+  {
+    "food_name": "Mac and Cheese",
+    "restaurant_name": "Tokyo Kitchen",
+    "address": "370 Brunch Blvd, Sushitown",
+    "rating": 5.0,
+    "price": 9.37,
+    "img": "https://example.com/images/mac_and_cheese.jpg"
+  },
+  {
+    "food_name": "Fruit Salad",
+    "restaurant_name": "Nature's Shack",
+    "address": "173 Maple Blvd, Pizzaville",
+    "rating": 4.1,
+    "price": 8.75,
+    "img": "https://example.com/images/fruit_salad.jpg"
+  },
+  {
+    "food_name": "Tiramisu",
+    "restaurant_name": "Luigi's House",
+    "address": "483 Elm St, Toastville",
+    "rating": 4.6,
+    "price": 5.7,
+    "img": "https://example.com/images/tiramisu.jpg"
+  },
+  {
+    "food_name": "Hawaiian Pizza",
+    "restaurant_name": "Zen Cafe",
+    "address": "133 Cedar Ln, Pizzaville",
+    "rating": 4.9,
+    "price": 14.69,
+    "img": "https://example.com/images/hawaiian_pizza.jpg"
+  },
+  {
+    "food_name": "Tuna Nigiri",
+    "restaurant_name": "Scoopz Cafe",
+    "address": "250 Main St, Dessertland",
+    "rating": 4.1,
+    "price": 13.76,
+    "img": "https://example.com/images/tuna_nigiri.jpg"
+  },
+  {
+    "food_name": "Bacon Burger",
+    "restaurant_name": "Burger Bistro",
+    "address": "323 Cedar Ln, Cream City",
+    "rating": 4.3,
+    "price": 11.01,
+    "img": "https://example.com/images/bacon_burger.jpg"
+  },
+  {
+    "food_name": "Chocolate Brownie",
+    "restaurant_name": "Scoopz Grill",
+    "address": "743 Cedar Ln, BurgerTown",
+    "rating": 4.6,
+    "price": 7.46,
+    "img": "https://example.com/images/chocolate_brownie.jpg"
+  },
+  {
+    "food_name": "Mint Chocolate Chip",
+    "restaurant_name": "Sakura Heaven",
+    "address": "502 Main St, Cream City",
+    "rating": 4.6,
+    "price": 3.44,
+    "img": "https://example.com/images/mint_chocolate_chip.jpg"
+  },
+  {
+    "food_name": "Mushroom Swiss Burger",
+    "restaurant_name": "Sakura Spot",
+    "address": "609 Main St, Dessertland",
+    "rating": 4.6,
+    "price": 6.23,
+    "img": "https://example.com/images/mushroom_swiss_burger.jpg"
+  },
+  {
+    "food_name": "Kale Quinoa Bowl",
+    "restaurant_name": "Tokyo Palace",
+    "address": "361 Cedar Ln, Healthville",
+    "rating": 4.1,
+    "price": 10.67,
+    "img": "https://example.com/images/kale_quinoa_bowl.jpg"
+  },
+  {
+    "food_name": "Strawberry Cheesecake",
+    "restaurant_name": "Scoopz Cafe",
+    "address": "232 Ocean Rd, Sushitown",
+    "rating": 4.0,
+    "price": 6.37,
+    "img": "https://example.com/images/strawberry_cheesecake.jpg"
+  },
+  {
+    "food_name": "Strawberry Ice Cream",
+    "restaurant_name": "Healthy Shack",
+    "address": "415 Choco St, Pizzaville",
+    "rating": 4.7,
+    "price": 5.78,
+    "img": "https://example.com/images/strawberry_ice_cream.jpg"
+  },
+  {
+    "food_name": "Mac and Cheese",
+    "restaurant_name": "Scoopz Shack",
+    "address": "853 Berry Dr, Sushitown",
+    "rating": 4.6,
+    "price": 9.3,
+    "img": "https://example.com/images/mac_and_cheese.jpg"
+  },
+  {
+    "food_name": "Hawaiian Pizza",
+    "restaurant_name": "Green Palace",
+    "address": "892 Berry Dr, Toastville",
+    "rating": 4.2,
     "price": 6.85,
-    "category": "Pasta",
-    "img": "https://i.pinimg.com/474x/ca/2a/b7/ca2ab7d73f97eb67b7b1b7c4f7d6f29a.jpg"
+    "img": "https://example.com/images/hawaiian_pizza.jpg"
   },
   {
-    "id": 11,
-    "name": "Mac and Cheese",
-    "price": 6.50,
-    "category": "Pasta",
-    "img": "https://i.pinimg.com/474x/31/2f/2a/312f2abe7f525ddddca4f9a433590e4b.jpg"
+    "food_name": "Tuna Nigiri",
+    "restaurant_name": "Burger Kitchen",
+    "address": "713 Choco St, Dessertland",
+    "rating": 4.5,
+    "price": 15.57,
+    "img": "https://example.com/images/tuna_nigiri.jpg"
   },
   {
-    "id": 12,
-    "name": "Spaghetti Bolognese",
-    "price": 8.25,
-    "category": "Pasta",
-    "img": "https://i.pinimg.com/474x/cd/67/5d/cd675d41c9a419a0a76c104cb6966861.jpg"
+    "food_name": "Margherita Pizza",
+    "restaurant_name": "Healthy Kitchen",
+    "address": "403 Pine Rd, Grilltopia",
+    "rating": 4.6,
+    "price": 13.11,
+    "img": "https://example.com/images/margherita_pizza.jpg"
   },
   {
-    "id": 13,
-    "name": "Caesar Salad",
-    "price": 6.00,
-    "category": "Salad",
-    "img": "https://i.pinimg.com/474x/00/38/9d/00389ddab812fdc051465e0d21b83ee8.jpg"
+    "food_name": "Oreo Milkshake",
+    "restaurant_name": "Scoopz Cafe",
+    "address": "146 Maple Blvd, Cream City",
+    "rating": 4.6,
+    "price": 6.69,
+    "img": "https://example.com/images/oreo_milkshake.jpg"
   },
   {
-    "id": 14,
-    "name": "Greek Salad",
-    "price": 5.75,
-    "category": "Salad",
-    "img": "https://i.pinimg.com/474x/96/e9/a5/96e9a5eee31448bff7b4bb23f85bfd28.jpg"
+    "food_name": "Apple Pie",
+    "restaurant_name": "Green Kitchen",
+    "address": "357 Pine Rd, BurgerTown",
+    "rating": 4.4,
+    "price": 7.93,
+    "img": "https://example.com/images/apple_pie.jpg"
   },
   {
-    "id": 15,
-    "name": "Fruit Bowl",
-    "price": 4.99,
-    "category": "Salad",
-    "img": "https://i.pinimg.com/474x/78/49/c2/7849c27a8355820a55b9648d6426f8db.jpg"
+    "food_name": "Bacon Burger",
+    "restaurant_name": "Zen Palace",
+    "address": "440 Elm St, Pizzaville",
+    "rating": 4.4,
+    "price": 7.26,
+    "img": "https://example.com/images/bacon_burger.jpg"
   },
   {
-    "id": 16,
-    "name": "Chicken Salad",
-    "price": 7.50,
-    "category": "Salad",
-    "img": "https://i.pinimg.com/474x/04/44/31/044431c8343b5801ff75f4b493fd6a24.jpg"
+    "food_name": "Margherita Pizza",
+    "restaurant_name": "Fit Spot",
+    "address": "936 Oak Ave, Grilltopia",
+    "rating": 4.0,
+    "price": 6.39,
+    "img": "https://example.com/images/margherita_pizza.jpg"
   },
   {
-    "id": 17,
-    "name": "French Fries",
-    "price": 3.50,
-    "category": "Snack",
-    "img": "https://i.pinimg.com/474x/73/7e/d9/737ed93987aae98a76fc2e5f12fc0ecc.jpg"
+    "food_name": "Dragon Roll",
+    "restaurant_name": "Green Spot",
+    "address": "920 Berry Dr, Sushitown",
+    "rating": 4.2,
+    "price": 15.36,
+    "img": "https://example.com/images/dragon_roll.jpg"
   },
   {
-    "id": 18,
-    "name": "Masala Fries",
-    "price": 3.99,
-    "category": "Snack",
-    "img": "https://i.pinimg.com/474x/eb/fe/b5/ebfeb57f7ad2d16578825bd7340c1470.jpg"
+    "food_name": "Avocado Toast",
+    "restaurant_name": "Zen Bistro",
+    "address": "956 Choco St, Dessertland",
+    "rating": 4.3,
+    "price": 6.66,
+    "img": "https://example.com/images/avocado_toast.jpg"
   },
   {
-    "id": 19,
-    "name": "Cheese Balls",
-    "price": 4.25,
-    "category": "Snack",
-    "img": "https://i.pinimg.com/474x/2e/61/58/2e615853dcc8c0d33147d134a2682c61.jpg"
+    "food_name": "Mushroom Swiss Burger",
+    "restaurant_name": "Healthy Grill",
+    "address": "838 Cedar Ln, Cream City",
+    "rating": 4.9,
+    "price": 9.81,
+    "img": "https://example.com/images/mushroom_swiss_burger.jpg"
   },
   {
-    "id": 20,
-    "name": "Garlic Bread",
-    "price": 3.75,
-    "category": "Snack",
-    "img": "https://i.pinimg.com/474x/1d/ce/33/1dce3309923fd31cdddae84cf66acd32.jpg"
+    "food_name": "Chocolate Chip Ice Cream",
+    "restaurant_name": "Fit Heaven",
+    "address": "515 Ocean Rd, Dessertland",
+    "rating": 4.1,
+    "price": 6.8,
+    "img": "https://example.com/images/chocolate_chip_ice_cream.jpg"
   },
   {
-    "id": 21,
-    "name": "Samosa",
-    "price": 1.50,
-    "category": "Indian",
-    "img": "https://i.pinimg.com/474x/2f/a4/4a/2fa44ae0b66a1d7cbd1bd89a3a23c88c.jpg"
+    "food_name": "Oreo Milkshake",
+    "restaurant_name": "Scoopz Grill",
+    "address": "539 Ocean Rd, Dessertland",
+    "rating": 4.9,
+    "price": 5.34,
+    "img": "https://example.com/images/oreo_milkshake.jpg"
   },
   {
-    "id": 22,
-    "name": "Paneer Tikka",
-    "price": 9.20,
-    "category": "Indian",
-    "img": "https://i.pinimg.com/474x/e1/a5/91/e1a59105bff129316df8c082826939c9.jpg"
+    "food_name": "Strawberry Cheesecake",
+    "restaurant_name": "Tokyo Bistro",
+    "address": "342 Oak Ave, Pizzaville",
+    "rating": 4.9,
+    "price": 3.72,
+    "img": "https://example.com/images/strawberry_cheesecake.jpg"
   },
   {
-    "id": 23,
-    "name": "Chole Bhature",
-    "price": 6.75,
-    "category": "Indian",
-    "img": "https://i.pinimg.com/474x/7f/55/b3/7f55b38f35f6760ed94f75f7596de747.jpg"
+    "food_name": "Fruit Salad",
+    "restaurant_name": "Nature's Shack",
+    "address": "373 Ocean Rd, Dessertland",
+    "rating": 4.9,
+    "price": 12.86,
+    "img": "https://example.com/images/fruit_salad.jpg"
   },
   {
-    "id": 24,
-    "name": "Butter Chicken",
-    "price": 11.00,
-    "category": "Indian",
-    "img": "https://i.pinimg.com/474x/72/96/4b/72964b17d98129cabe024488fc825228.jpg"
+    "food_name": "Bacon Burger",
+    "restaurant_name": "Tony's Palace",
+    "address": "546 Elm St, BurgerTown",
+    "rating": 5.0,
+    "price": 9.08,
+    "img": "https://example.com/images/bacon_burger.jpg"
   },
   {
-    "id": 25,
-    "name": "Chicken Biryani",
-    "price": 10.50,
-    "category": "Indian",
-    "img": "https://i.pinimg.com/474x/8d/54/7e/8d547e3737e705b516798b10b20ea7a2.jpg"
+    "food_name": "Tiramisu",
+    "restaurant_name": "Sweet Kitchen",
+    "address": "328 Berry Dr, Cream City",
+    "rating": 4.1,
+    "price": 3.23,
+    "img": "https://example.com/images/tiramisu.jpg"
   },
   {
-    "id": 26,
-    "name": "Veg Biryani",
-    "price": 8.50,
-    "category": "Indian",
-    "img": "https://i.pinimg.com/474x/62/95/5d/62955d4db7c3fe17c4de8c266ee84861.jpg"
+    "food_name": "Mint Chocolate Chip",
+    "restaurant_name": "Sweet Spot",
+    "address": "587 Choco St, Healthville",
+    "rating": 4.8,
+    "price": 4.95,
+    "img": "https://example.com/images/mint_chocolate_chip.jpg"
   },
   {
-    "id": 27,
-    "name": "Gulab Jamun",
-    "price": 2.99,
-    "category": "Dessert",
-    "img": "https://i.pinimg.com/736x/a9/3d/77/a93d77d3e242262f2c919bf66aef5b39.jpg"
+    "food_name": "Pepperoni Pizza",
+    "restaurant_name": "Zen Heaven",
+    "address": "228 Berry Dr, Healthville",
+    "rating": 4.9,
+    "price": 7.95,
+    "img": "https://example.com/images/pepperoni_pizza.jpg"
   },
   {
-    "id": 28,
-    "name": "Chocolate Cake",
-    "price": 4.99,
-    "category": "Dessert",
-    "img": "https://i.pinimg.com/474x/8e/8e/9c/8e8e9c1927a75d4bf661f3163841fffc.jpg"
+    "food_name": "BBQ Chicken Pizza",
+    "restaurant_name": "Tokyo Spot",
+    "address": "653 Brunch Blvd, Healthville",
+    "rating": 4.4,
+    "price": 14.24,
+    "img": "https://example.com/images/bbq_chicken_pizza.jpg"
   },
   {
-    "id": 29,
-    "name": "Ice Cream Sundae",
-    "price": 3.99,
-    "category": "Dessert",
-    "img": "https://i.pinimg.com/736x/38/15/02/381502624862618303ec48a935b67b3a.jpg"
+    "food_name": "Grilled Chicken Salad",
+    "restaurant_name": "Tokyo Heaven",
+    "address": "645 Brunch Blvd, Pizzaville",
+    "rating": 4.5,
+    "price": 10.99,
+    "img": "https://example.com/images/grilled_chicken_salad.jpg"
   },
   {
-    "id": 30,
-    "name": "Brownie with Ice Cream",
-    "price": 5.25,
-    "category": "Dessert",
-    "img": "https://i.pinimg.com/474x/2b/bd/8d/2bbd8ddef0efd324f26cadb9b0f4c17d.jpg"
+    "food_name": "Strawberry Ice Cream",
+    "restaurant_name": "Tokyo Palace",
+    "address": "683 Cedar Ln, Healthville",
+    "rating": 4.9,
+    "price": 5.88,
+    "img": "https://example.com/images/strawberry_ice_cream.jpg"
   },
   {
-    "id": 31,
-    "name": "Cold Coffee",
-    "price": 2.99,
-    "category": "Beverage",
-    "img": "https://i.pinimg.com/474x/bd/de/a0/bddea0e4dbe2f7a9cffa8cab5194cb74.jpg"
+    "food_name": "Cheeseburger",
+    "restaurant_name": "Burger Kitchen",
+    "address": "643 Ocean Rd, Healthville",
+    "rating": 4.8,
+    "price": 8.78,
+    "img": "https://example.com/images/cheeseburger.jpg"
   },
   {
-    "id": 32,
-    "name": "Mango Shake",
-    "price": 3.50,
-    "category": "Beverage",
-    "img": "https://i.pinimg.com/474x/37/ad/e7/37ade7de242e92f088be277fc50de942.jpg"
+    "food_name": "Oreo Milkshake",
+    "restaurant_name": "Sakura Kitchen",
+    "address": "758 Main St, BurgerTown",
+    "rating": 4.2,
+    "price": 5.45,
+    "img": "https://example.com/images/oreo_milkshake.jpg"
   },
   {
-    "id": 33,
-    "name": "Fresh Lime Soda",
-    "price": 2.25,
-    "category": "Beverage",
-    "img": "https://i.pinimg.com/474x/f8/98/74/f8987473c38e50ef49ac0ac0388ee123.jpg"
+    "food_name": "Apple Pie",
+    "restaurant_name": "Green Palace",
+    "address": "580 Elm St, Cream City",
+    "rating": 4.0,
+    "price": 7.94,
+    "img": "https://example.com/images/apple_pie.jpg"
   },
   {
-    "id": 34,
-    "name": "Masala Chai",
-    "price": 1.50,
-    "category": "Beverage",
-    "img": "https://i.pinimg.com/474x/7b/fd/b3/7bfdb3f39667109741da29be2211df91.jpg"
+    "food_name": "Veggie Burger",
+    "restaurant_name": "Luigi's Corner",
+    "address": "925 Main St, BurgerTown",
+    "rating": 5.0,
+    "price": 9.02,
+    "img": "https://example.com/images/veggie_burger.jpg"
   },
   {
-    "id": 35,
-    "name": "Espresso",
-    "price": 2.00,
-    "category": "Beverage",
-    "img": "https://i.pinimg.com/474x/6a/86/c3/6a86c387495a30851e5843a582c7b6f2.jpg"
+    "food_name": "California Roll",
+    "restaurant_name": "Fit Spot",
+    "address": "175 Oak Ave, Grilltopia",
+    "rating": 4.3,
+    "price": 8.0,
+    "img": "https://example.com/images/california_roll.jpg"
   },
   {
-    "id": 36,
-    "name": "Tandoori Roti",
-    "price": 1.25,
-    "category": "Indian",
-    "img": "https://i.pinimg.com/474x/6c/44/fa/6c44faaa7cd233140a6a2cb417909af8.jpg"
+    "food_name": "Mushroom Swiss Burger",
+    "restaurant_name": "Sweet Shack",
+    "address": "347 Oak Ave, Dessertland",
+    "rating": 4.9,
+    "price": 6.25,
+    "img": "https://example.com/images/mushroom_swiss_burger.jpg"
   },
   {
-    "id": 37,
-    "name": "Naan",
-    "price": 1.50,
-    "category": "Indian",
-    "img": "https://i.pinimg.com/474x/2a/18/27/2a18270888e4dec1488ffd9832a0d858.jpg"
+    "food_name": "Strawberry Ice Cream",
+    "restaurant_name": "Tokyo Heaven",
+    "address": "145 Choco St, BurgerTown",
+    "rating": 4.8,
+    "price": 3.77,
+    "img": "https://example.com/images/strawberry_ice_cream.jpg"
   },
   {
-    "id": 38,
-    "name": "Butter Naan",
-    "price": 1.75,
-    "category": "Indian",
-    "img": "https://i.pinimg.com/474x/c3/98/b1/c398b1367a78955ae6f7edd80107cf18.jpg"
+    "food_name": "Mushroom Swiss Burger",
+    "restaurant_name": "Fit Corner",
+    "address": "782 Cedar Ln, Sushitown",
+    "rating": 4.5,
+    "price": 10.81,
+    "img": "https://example.com/images/mushroom_swiss_burger.jpg"
   },
   {
-    "id": 39,
-    "name": "Spring Rolls",
-    "price": 4.99,
-    "category": "Chinese",
-    "img": "https://i.pinimg.com/474x/1d/05/1e/1d051e166e62294bd2cb4dec59b22d5f.jpg"
+    "food_name": "Cheeseburger",
+    "restaurant_name": "Tokyo Bistro",
+    "address": "112 Main St, Pizzaville",
+    "rating": 4.1,
+    "price": 5.2,
+    "img": "https://example.com/images/cheeseburger.jpg"
   },
   {
-    "id": 40,
-    "name": "Veg Manchurian",
-    "price": 7.00,
-    "category": "Chinese",
-    "img": "https://i.pinimg.com/474x/d2/26/09/d22609efc42984ac31068cafc8f9427b.jpg"
+    "food_name": "Veggie Burger",
+    "restaurant_name": "Healthy Spot",
+    "address": "580 Ocean Rd, Healthville",
+    "rating": 4.3,
+    "price": 7.35,
+    "img": "https://example.com/images/veggie_burger.jpg"
   },
   {
-    "id": 41,
-    "name": "Fried Rice",
-    "price": 6.50,
-    "category": "Chinese",
-    "img": "https://i.pinimg.com/474x/83/b7/38/83b7381b18940f97d4ec5fe69ae3d023.jpg"
+    "food_name": "Double Patty Burger",
+    "restaurant_name": "Nature's Spot",
+    "address": "441 Berry Dr, Sushitown",
+    "rating": 4.2,
+    "price": 10.86,
+    "img": "https://example.com/images/double_patty_burger.jpg"
   },
   {
-    "id": 42,
-    "name": "Hakka Noodles",
-    "price": 6.75,
-    "category": "Chinese",
-    "img": "https://i.pinimg.com/474x/e5/53/63/e55363cd63ec1f769a184d8617a832ef.jpg"
+    "food_name": "Strawberry Cheesecake",
+    "restaurant_name": "Fit Palace",
+    "address": "176 Pine Rd, Cream City",
+    "rating": 4.0,
+    "price": 7.24,
+    "img": "https://example.com/images/strawberry_cheesecake.jpg"
   },
   {
-    "id": 43,
-    "name": "Veg Sandwich",
-    "price": 4.00,
-    "category": "Snack",
-    "img": "https://i.pinimg.com/474x/09/ff/bd/09ffbd293486d00ac42b9038ae26ca38.jpg"
+    "food_name": "Hawaiian Pizza",
+    "restaurant_name": "Healthy Shack",
+    "address": "242 Oak Ave, BurgerTown",
+    "rating": 4.1,
+    "price": 12.45,
+    "img": "https://example.com/images/hawaiian_pizza.jpg"
   },
   {
-    "id": 44,
-    "name": "Grilled Cheese Sandwich",
-    "price": 4.50,
-    "category": "Snack",
-    "img": "https://i.pinimg.com/736x/28/5f/e4/285fe42b209ea0dd35665fcc0f453f23.jpg"
+    "food_name": "Dragon Roll",
+    "restaurant_name": "Fit Heaven",
+    "address": "780 Oak Ave, Dessertland",
+    "rating": 4.4,
+    "price": 15.33,
+    "img": "https://example.com/images/dragon_roll.jpg"
   },
   {
-    "id": 45,
-    "name": "Club Sandwich",
-    "price": 5.25,
-    "category": "Snack",
-    "img": "https://i.pinimg.com/474x/b6/bc/eb/b6bceb0dc50cb3247b9c632bfc1dcd3c.jpg"
+    "food_name": "Red Velvet Cake",
+    "restaurant_name": "Burger Palace",
+    "address": "689 Cedar Ln, Toastville",
+    "rating": 5.0,
+    "price": 6.22,
+    "img": "https://example.com/images/red_velvet_cake.jpg"
   },
   {
-    "id": 46,
-    "name": "Paneer Wrap",
-    "price": 6.00,
-    "category": "Wrap",
-    "img": "https://i.pinimg.com/474x/44/3e/3e/443e3eb28ee9315ab961787df489e30d.jpg"
+    "food_name": "Mushroom Swiss Burger",
+    "restaurant_name": "Fit Cafe",
+    "address": "703 Main St, Sushitown",
+    "rating": 4.5,
+    "price": 11.97,
+    "img": "https://example.com/images/mushroom_swiss_burger.jpg"
   },
   {
-    "id": 47,
-    "name": "Chicken Wrap",
-    "price": 6.50,
-    "category": "Wrap",
-    "img": "https://i.pinimg.com/474x/a7/8a/b1/a78ab1f6c0b4820adda3abb4191e4efb.jpg"
+    "food_name": "Spaghetti Bolognese",
+    "restaurant_name": "Healthy Heaven",
+    "address": "840 Ocean Rd, Pizzaville",
+    "rating": 4.3,
+    "price": 12.42,
+    "img": "https://example.com/images/spaghetti_bolognese.jpg"
   },
   {
-    "id": 48,
-    "name": "Veg Thali",
-    "price": 9.99,
-    "category": "Indian",
-    "img": "https://i.pinimg.com/474x/aa/df/81/aadf81c33d7a3426c9e653f6e198e7fb.jpg"
+    "food_name": "Red Velvet Cake",
+    "restaurant_name": "Scoopz Spot",
+    "address": "490 Ocean Rd, Healthville",
+    "rating": 4.4,
+    "price": 5.29,
+    "img": "https://example.com/images/red_velvet_cake.jpg"
   },
   {
-    "id": 49,
-    "name": "Non-Veg Thali",
-    "price": 12.99,
-    "category": "Indian",
-    "img": "https://i.pinimg.com/736x/aa/df/81/aadf81c33d7a3426c9e653f6e198e7fb.jpg"
+    "food_name": "Chocolate Chip Ice Cream",
+    "restaurant_name": "Luigi's Bistro",
+    "address": "102 Main St, Grilltopia",
+    "rating": 4.3,
+    "price": 6.57,
+    "img": "https://example.com/images/chocolate_chip_ice_cream.jpg"
   },
   {
-    "id": 50,
-    "name": "Mojito",
-    "price": 3.25,
-    "category": "Beverage",
-    "img": "https://i.pinimg.com/474x/cd/f1/0b/cdf10bd45a14c646c05e75cc59390b21.jpg"
+    "food_name": "Double Patty Burger",
+    "restaurant_name": "Tony's Cafe",
+    "address": "391 Oak Ave, Healthville",
+    "rating": 4.8,
+    "price": 8.08,
+    "img": "https://example.com/images/double_patty_burger.jpg"
+  },
+  {
+    "food_name": "Mint Chocolate Chip",
+    "restaurant_name": "Green House",
+    "address": "410 Brunch Blvd, Cream City",
+    "rating": 4.9,
+    "price": 5.16,
+    "img": "https://example.com/images/mint_chocolate_chip.jpg"
+  },
+  {
+    "food_name": "Mango Smoothie",
+    "restaurant_name": "Fit Corner",
+    "address": "206 Brunch Blvd, Pizzaville",
+    "rating": 4.7,
+    "price": 9.86,
+    "img": "https://example.com/images/mango_smoothie.jpg"
+  },
+  {
+    "food_name": "Pepperoni Pizza",
+    "restaurant_name": "Burger Cafe",
+    "address": "574 Pine Rd, Sushitown",
+    "rating": 4.3,
+    "price": 7.7,
+    "img": "https://example.com/images/pepperoni_pizza.jpg"
+  },
+  {
+    "food_name": "Fruit Salad",
+    "restaurant_name": "Zen Palace",
+    "address": "211 Choco St, Sushitown",
+    "rating": 4.1,
+    "price": 9.49,
+    "img": "https://example.com/images/fruit_salad.jpg"
+  },
+  {
+    "food_name": "Mac and Cheese",
+    "restaurant_name": "Zen Shack",
+    "address": "380 Main St, Toastville",
+    "rating": 4.2,
+    "price": 13.75,
+    "img": "https://example.com/images/mac_and_cheese.jpg"
+  },
+  {
+    "food_name": "Mango Smoothie",
+    "restaurant_name": "Healthy Diner",
+    "address": "962 Oak Ave, Healthville",
+    "rating": 4.2,
+    "price": 12.89,
+    "img": "https://example.com/images/mango_smoothie.jpg"
+  },
+  {
+    "food_name": "Strawberry Cheesecake",
+    "restaurant_name": "Sweet Corner",
+    "address": "702 Choco St, BurgerTown",
+    "rating": 4.4,
+    "price": 8.17,
+    "img": "https://example.com/images/strawberry_cheesecake.jpg"
+  },
+  {
+    "food_name": "Dragon Roll",
+    "restaurant_name": "Fit Kitchen",
+    "address": "299 Cedar Ln, Pizzaville",
+    "rating": 4.2,
+    "price": 9.72,
+    "img": "https://example.com/images/dragon_roll.jpg"
+  },
+  {
+    "food_name": "Tiramisu",
+    "restaurant_name": "Tony's Spot",
+    "address": "606 Main St, Toastville",
+    "rating": 4.0,
+    "price": 7.23,
+    "img": "https://example.com/images/tiramisu.jpg"
+  },
+  {
+    "food_name": "Mac and Cheese",
+    "restaurant_name": "Sweet Hub",
+    "address": "476 Elm St, Grilltopia",
+    "rating": 4.2,
+    "price": 10.74,
+    "img": "https://example.com/images/mac_and_cheese.jpg"
+  },
+  {
+    "food_name": "Spicy Tuna Roll",
+    "restaurant_name": "Zen Diner",
+    "address": "479 Elm St, BurgerTown",
+    "rating": 4.3,
+    "price": 14.72,
+    "img": "https://example.com/images/spicy_tuna_roll.jpg"
+  },
+  {
+    "food_name": "Vanilla Ice Cream",
+    "restaurant_name": "Fit Shack",
+    "address": "167 Main St, Healthville",
+    "rating": 4.9,
+    "price": 6.06,
+    "img": "https://example.com/images/vanilla_ice_cream.jpg"
+  },
+  {
+    "food_name": "Spaghetti Bolognese",
+    "restaurant_name": "Luigi's House",
+    "address": "277 Brunch Blvd, Dessertland",
+    "rating": 4.4,
+    "price": 10.13,
+    "img": "https://example.com/images/spaghetti_bolognese.jpg"
+  },
+  {
+    "food_name": "Oreo Milkshake",
+    "restaurant_name": "Luigi's Shack",
+    "address": "284 Pine Rd, Cream City",
+    "rating": 4.2,
+    "price": 3.69,
+    "img": "https://example.com/images/oreo_milkshake.jpg"
+  },
+  {
+    "food_name": "Penne Arrabbiata",
+    "restaurant_name": "Nature's Kitchen",
+    "address": "854 Choco St, Dessertland",
+    "rating": 4.7,
+    "price": 11.31,
+    "img": "https://example.com/images/penne_arrabbiata.jpg"
+  },
+  {
+    "food_name": "Mushroom Swiss Burger",
+    "restaurant_name": "Sakura Grill",
+    "address": "635 Brunch Blvd, Toastville",
+    "rating": 4.4,
+    "price": 5.66,
+    "img": "https://example.com/images/mushroom_swiss_burger.jpg"
+  },
+  {
+    "food_name": "Mango Smoothie",
+    "restaurant_name": "Tony's Heaven",
+    "address": "986 Pine Rd, Cream City",
+    "rating": 5.0,
+    "price": 12.68,
+    "img": "https://example.com/images/mango_smoothie.jpg"
+  },
+  {
+    "food_name": "Vanilla Ice Cream",
+    "restaurant_name": "Scoopz Cafe",
+    "address": "347 Brunch Blvd, Cream City",
+    "rating": 4.3,
+    "price": 6.43,
+    "img": "https://example.com/images/vanilla_ice_cream.jpg"
+  },
+  {
+    "food_name": "Lasagna",
+    "restaurant_name": "Burger Hub",
+    "address": "179 Oak Ave, Sushitown",
+    "rating": 4.7,
+    "price": 9.3,
+    "img": "https://example.com/images/lasagna.jpg"
+  },
+  {
+    "food_name": "Chicken Alfredo Pasta",
+    "restaurant_name": "Zen Grill",
+    "address": "331 Pine Rd, Grilltopia",
+    "rating": 4.7,
+    "price": 12.48,
+    "img": "https://example.com/images/chicken_alfredo_pasta.jpg"
+  },
+  {
+    "food_name": "Mac and Cheese",
+    "restaurant_name": "Sweet Hub",
+    "address": "276 Pine Rd, BurgerTown",
+    "rating": 4.0,
+    "price": 9.82,
+    "img": "https://example.com/images/mac_and_cheese.jpg"
+  },
+  {
+    "food_name": "Strawberry Ice Cream",
+    "restaurant_name": "Luigi's Heaven",
+    "address": "885 Main St, Toastville",
+    "rating": 4.8,
+    "price": 4.67,
+    "img": "https://example.com/images/strawberry_ice_cream.jpg"
+  },
+  {
+    "food_name": "Penne Arrabbiata",
+    "restaurant_name": "Scoopz Corner",
+    "address": "774 Brunch Blvd, Healthville",
+    "rating": 4.5,
+    "price": 8.17,
+    "img": "https://example.com/images/penne_arrabbiata.jpg"
   }
 ]
